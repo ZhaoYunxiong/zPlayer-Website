@@ -1,0 +1,6 @@
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+.website-server.pid
+.website-server.out.log
+.website-server.err.log

@@ -1,0 +1,295 @@
+---
+layout: home
+hero:
+  name: zPlayer
+  text: 让播放更智能更优雅
+  tagline: 从本地文件、NAS 到媒体服务器和在线媒体，把找到、整理和播放放进一个顺手的 Windows 应用。
+  image:
+    src: /assets/logo.png
+    alt: zPlayer Logo
+  actions:
+    - theme: brand
+      text: 下载 zPlayer
+      link: https://apps.microsoft.com/detail/9n2p3rq5vxxj?hl=zh-CN&gl=CN
+    - theme: alt
+      text: 开始使用
+      link: /docs/
+---
+
+<div class="zplayer-home-landing">
+  <section class="zplayer-home-showcase">
+    <div class="zplayer-home-showcase-copy">
+      <p class="zplayer-home-eyebrow">为 Windows 设计的媒体空间</p>
+      <h2>找到文件，就能开始播放。</h2>
+      <p>不管你的电影在硬盘、NAS、媒体服务器，还是来自在线站点，zPlayer 都先让你用熟悉的方式打开，再慢慢整理成自己的媒体库。</p>
+      <div class="zplayer-home-actions">
+        <a class="zplayer-home-action zplayer-home-action-primary" href="./docs/media/home-management">了解首页管理</a>
+        <a class="zplayer-home-action zplayer-home-action-secondary" href="./docs/getting-started/overview">先看看适合哪条路线 <span>→</span></a>
+      </div>
+      <ul class="zplayer-home-check-list">
+        <li>本地、NAS、网络协议和网盘，都可以按目录直接浏览</li>
+        <li>Emby、Jellyfin、Plex、飞牛、极空间、DLNA 等媒体服务器统一连接</li>
+        <li>从文件服务开始，也可以继续整理成刮削首页</li>
+      </ul>
+    </div>
+    <div class="zplayer-home-window">
+      <img src="./assets/screenshots/home.png" alt="zPlayer 首页的媒体推荐、继续观看和媒体库栏目" />
+    </div>
+  </section>
+
+  <section class="zplayer-home-section zplayer-home-connection">
+    <div class="zplayer-home-connection-stage">
+      <div class="zplayer-home-connection-copy">
+        <p class="zplayer-home-eyebrow">连接管理</p>
+        <h2>你的媒体，不必先搬家。</h2>
+        <p>连接管理把分散在电脑、NAS、网盘和媒体服务器里的内容，统一放进 zPlayer。你可以按自己的习惯逐个添加，不需要为了使用播放器先重做文件整理。</p>
+        <ul class="zplayer-home-check-list">
+          <li>来源保存后，回到首页会自动刷新，不需要手动重新导入</li>
+          <li>非媒体服务器按真实内容选择分类，避免电影和电视剧混在一起影响刮削</li>
+          <li>媒体服务器可以按需选择直连模式或媒体库模式</li>
+        </ul>
+        <a class="zplayer-home-inline-link" href="./docs/media/file-services">查看连接管理说明 <span>→</span></a>
+      </div>
+      <div class="zplayer-home-connection-image">
+        <img src="./assets/screenshots/connection-management.png" alt="zPlayer 连接管理页面，集中管理本地、NAS 和媒体服务器来源" />
+      </div>
+    </div>
+  </section>
+
+  <section class="zplayer-home-section zplayer-home-file-stage">
+    <div class="zplayer-home-feature-stage">
+      <div class="zplayer-home-feature-copy">
+        <p class="zplayer-home-eyebrow">先按目录找到它</p>
+        <h2>文件在哪儿，就从哪儿开始。</h2>
+        <p>不想刮削时，直接进入来源、文件夹和季目录浏览；想长期管理时，再把同一个来源交给首页整理。文件服务适合先找到内容，也适合一直保持最直观的目录结构。</p>
+        <ul class="zplayer-home-check-list">
+          <li>按来源、文件夹和季目录浏览，不需要等待完整刮削</li>
+          <li>打开本地文件、NAS 或网络服务中的视频即可播放</li>
+          <li>目录结构保持不变，后续也能交给首页继续整理</li>
+        </ul>
+        <a class="zplayer-home-inline-link" href="./docs/media/file-services">查看文件服务 <span>→</span></a>
+      </div>
+      <div class="zplayer-home-feature-image">
+        <img src="./assets/screenshots/file-service-season.png" alt="zPlayer 文件服务中的季目录和视频文件" />
+      </div>
+    </div>
+  </section>
+
+  <section class="zplayer-home-section zplayer-home-feature-stage">
+    <div class="zplayer-home-feature-copy">
+      <p class="zplayer-home-eyebrow">属于你的片单</p>
+      <h2>把想看的，放进首页。</h2>
+      <p>把电影、剧集或音乐按主题整理成自己的片单，首页会把它们作为清晰的栏目展示。周末想看、待追剧集或家庭影院片源，不用每次重新搜索。</p>
+      <ul class="zplayer-home-check-list">
+        <li>按主题整理电影、剧集和音乐</li>
+        <li>片单以海报卡片的形式出现在首页</li>
+        <li>与收藏、继续观看分开管理，各自有自己的用途</li>
+      </ul>
+      <a class="zplayer-home-inline-link" href="./docs/media/home/playlists">了解片单怎么用 <span>→</span></a>
+    </div>
+    <div class="zplayer-home-feature-image">
+      <img src="./assets/screenshots/home-playlist.png" alt="zPlayer 首页中的片单栏目和海报卡片" />
+    </div>
+  </section>
+
+  <section class="zplayer-home-section zplayer-home-detail-stage">
+    <div class="zplayer-home-detail-image">
+      <img src="./assets/screenshots/media-detail.png" alt="zPlayer 媒体详情页，展示作品资料、剧集列表和播放入口" />
+    </div>
+    <div class="zplayer-home-detail-copy">
+      <p class="zplayer-home-eyebrow">媒体详情</p>
+      <h2>找到作品，也把它看明白。</h2>
+        <p>首页负责发现，媒体详情负责确认和处理：从匹配结果、季集和片源，到收藏、片单、元数据、章节与剧情内容，都围绕这一部作品展开。启用 AI 分析后，还可以在这里浏览生成的章节、故事剧情和内容结构，并与播放器右侧的内容结构互通。</p>
+      <ul class="zplayer-home-check-list">
+        <li>重新刮削或从 TMDB 中选择正确的作品</li>
+        <li>按季、集、来源和版本选择要播放的内容</li>
+        <li>查看章节剧情，管理收藏、片单和观看状态</li>
+        <li>查看 AI 识别的章节、故事剧情和内容结构，快速定位关键片段</li>
+      </ul>
+      <a class="zplayer-home-inline-link" href="./docs/media/home/media-detail">查看媒体详情说明 <span>→</span></a>
+    </div>
+  </section>
+
+  <section class="zplayer-home-section zplayer-home-capabilities">
+    <div class="zplayer-home-section-heading">
+      <p class="zplayer-home-eyebrow">播放器</p>
+      <h2>把播放，调成你喜欢的样子。</h2>
+      <p>真正每天都会用到的，是那些让你少找几次、少改几次、少记几个位置的小功能。</p>
+    </div>
+    <div class="zplayer-home-player-stage">
+      <div class="zplayer-home-player-copy">
+        <p>从快捷键、手势和高能进度条，到字幕、弹幕、画质滤镜和 AI 内容结构，播放器把真正会影响观看体验的东西放在手边。</p>
+        <ul class="zplayer-home-check-list">
+          <li>用快捷键、手势和高能进度条快速控制播放</li>
+          <li>按需加载字幕、翻译、动画、弹幕、滤镜和着色器</li>
+          <li>从章节书签、故事剧情和内容搜索直接跳到关键片段</li>
+        </ul>
+        <a class="zplayer-home-inline-link" href="./docs/player/">看看播放器能做什么 <span>→</span></a>
+      </div>
+      <div class="zplayer-home-player-image">
+        <img src="./assets/screenshots/player.png" alt="zPlayer 播放器界面，显示画面、字幕、弹幕和控制栏" />
+      </div>
+    </div>
+  </section>
+
+  <section class="zplayer-home-section zplayer-home-history-stage">
+    <div class="zplayer-home-history-copy">
+      <p class="zplayer-home-eyebrow">记得你看到哪里</p>
+      <h2>历史记录，帮你接着看。</h2>
+      <p>zPlayer 会记住你看过什么、停在什么位置，以及哪些内容还没看完。需要跨服务使用时，还可以把观看状态同步到媒体服务器、Bangumi 或 Trakt。</p>
+      <ul class="zplayer-home-check-list">
+        <li>继续观看帮你快速回到电影、剧集或具体单集的上次进度</li>
+        <li>历史记录、已观看状态和收藏彼此独立，首页栏目可以分别筛选</li>
+        <li>播放进度可按需同步到媒体服务器，外部账户同步观看记录</li>
+      </ul>
+      <a class="zplayer-home-inline-link" href="./docs/media/home/favorites-and-history">查看历史记录与同步说明 <span>→</span></a>
+    </div>
+    <div class="zplayer-home-history-image">
+      <img src="./assets/screenshots/history.png" alt="zPlayer 侧边栏中的历史记录页面" />
+    </div>
+  </section>
+
+  <section class="zplayer-home-section zplayer-home-advantages">
+    <div class="zplayer-home-section-heading">
+      <p class="zplayer-home-eyebrow">为什么选择 zPlayer</p>
+      <h2>一款播放器，装下整套媒体能力。</h2>
+      <p>从媒体接入、播放控制到 AI 内容理解，把你会用到的能力集中在一个应用里。</p>
+    </div>
+    <div class="zplayer-home-advantage-grid">
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">📂</span>
+        <h3>媒体库管理</h3>
+        <p>支持本地文件夹、FTP、SFTP、SMB、WebDAV、AList 等多源挂载。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">☁️</span>
+        <h3>同步媒体服务器</h3>
+        <p>无缝接入 Emby、Jellyfin、Plex 等媒体服务器，实现跨平台浏览与播放。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🌐</span>
+        <h3>在线媒体</h3>
+        <p>支持从在线站点浏览和搜索；匹配 TMDB 后进入统一详情，也可在未匹配时直接选择线路播放。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🏠</span>
+        <h3>首页管理</h3>
+        <p>通过扫描与刮削建立可搜索的媒体首页，支持动态栏目、片单与布局调整。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🗂️</span>
+        <h3>媒体详情</h3>
+        <p>集中处理 TMDB 匹配、季集、片源、收藏、片单、元数据，以及 AI 章节和故事剧情。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">📡</span>
+        <h3>DLNA 与局域网共享</h3>
+        <p>支持投屏播放、媒体渲染与局域网文件共享。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🧾</span>
+        <h3>播放历史与收藏夹</h3>
+        <p>自动记录观看足迹，聚合展示收藏与偏好内容。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🔄</span>
+        <h3>观看进度同步</h3>
+        <p>可将播放进度同步到媒体服务器，并将观看记录同步到 Bangumi 与 Trakt。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🎬</span>
+        <h3>智能播放引擎</h3>
+        <p>兼容多格式音视频，提供高性能解码与硬件加速支持。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">⚡</span>
+        <h3>快速启动与续播</h3>
+        <p>毫秒启动，自动记忆上次播放进度，随时恢复沉浸体验。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🎞️</span>
+        <h3>画面预设与滤镜</h3>
+        <p>支持 Anime4K、补帧与色彩增强，呈现更出色的视觉体验。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🔊</span>
+        <h3>音频控制中心</h3>
+        <p>EQ 调节、音轨切换、音画同步与语音提取一应俱全。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🖼️</span>
+        <h3>多字幕系统</h3>
+        <p>支持无上限加载字幕与弹幕，并提供自定义样式调整。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">📖</span>
+        <h3>书签与笔记系统</h3>
+        <p>支持 AI 自动生成、章节时间轴标记、缩略图与概要记录，快速定位精彩片段。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">💡</span>
+        <h3>AI 智能助手</h3>
+        <p>支持媒体摘要生成、问答解析与智能搜索，理解内容更深一层。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🪄</span>
+        <h3>多模态 AI</h3>
+        <p>结合文本与视觉识别，实现图像理解与语义分析。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🧰</span>
+        <h3>媒体处理工具箱</h3>
+        <p>集成转码、剪辑、字幕、音轨与画面处理等多种实用工具。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🧭</span>
+        <h3>文档导出</h3>
+        <p>可一键导出视频属性 Markdown，保存影片笔记与解析记录。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">📡</span>
+        <h3>RSS 订阅中心</h3>
+        <p>自动更新番剧订阅，支持离线下载与邮件推送统计。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">✨</span>
+        <h3>Fluent Design 设计</h3>
+        <p>以流畅动效与柔和光感，呈现现代美学体验。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🔐</span>
+        <h3>隐私与加密播放</h3>
+        <p>支持登录 PIN，提供加密文件支持与私密空间保护，守护个人媒体安全。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="zplayer-home-final-cta">
+    <div>
+      <p class="zplayer-home-eyebrow">准备好就开始</p>
+      <h2>先打开一部媒体，再慢慢把它变成你的首页。</h2>
+      <p>第一次使用不需要先配置复杂选项，从一部视频或一个文件夹开始，就能逐步找到适合自己的方式。</p>
+    </div>
+    <div class="zplayer-home-final-actions">
+      <a class="zplayer-home-action zplayer-home-action-light" href="./docs/">阅读使用文档 <span>→</span></a>
+    </div>
+  </section>
+
+  <section class="zplayer-home-feedback">
+    <div>
+      <p class="zplayer-home-eyebrow">需要帮助？</p>
+      <h2>遇到问题，直接告诉我。</h2>
+      <p>Bug、功能建议或使用中的疑问，都可以通过邮箱或 GitHub 反馈中心联系开发者。</p>
+    </div>
+    <div class="zplayer-home-feedback-links">
+      <a href="mailto:panda8833657@live.com">
+        <span>邮件联系</span>
+        <strong>panda8833657@live.com</strong>
+      </a>
+      <a href="https://github.com/ZhaoYunxiong/zPlayer-Support" target="_blank" rel="noreferrer">
+        <span>GitHub 反馈中心</span>
+        <strong>提交 Bug 或功能建议 <b>↗</b></strong>
+      </a>
+    </div>
+  </section>
+</div>
