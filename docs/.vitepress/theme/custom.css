@@ -773,6 +773,10 @@
     grid-template-columns: 1fr;
   }
 
+  .zplayer-home-file-stage .zplayer-home-feature-stage {
+    grid-template-columns: 1fr;
+  }
+
   .zplayer-home-advantage-grid {
     grid-template-columns: repeat(2, 1fr);
   }
