@@ -11,7 +11,7 @@
 | 在线媒体 | 配置站点，浏览、搜索并按线路播放 | [在线媒体](/docs/media/online-media) |
 | 首页管理 | 扫描、刮削并建立海报墙和动态栏目 | [首页管理](/docs/media/home-management) |
 | 媒体详情 | 管理 TMDB 匹配、季集、片源、收藏和内容结构 | [媒体详情](/docs/media/home/media-detail) |
-| 播放历史与收藏夹 | 找回观看记录、收藏内容和上次进度 | [历史、收藏与继续观看](/docs/media/home/favorites-and-history) |
+| 播放历史与收藏夹 | 找回观看记录、收藏内容和上次进度 | [历史记录](/docs/media/history)、[收藏与继续观看](/docs/media/home/favorites-and-history) |
 | 观看进度同步 | 同步媒体服务器、Bangumi 与 Trakt 的观看状态 | [同步功能](/docs/sync/) |
 
 ## 播放与观看体验

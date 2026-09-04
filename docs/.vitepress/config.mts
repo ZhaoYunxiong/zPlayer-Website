@@ -47,10 +47,11 @@ const sidebar = [
           { text: 'TMDB 与元数据', link: '/docs/media/home/metadata' },
           { text: '搜索、分类与推荐', link: '/docs/media/home/search-and-recommendation' },
           { text: '媒体详情', link: '/docs/media/home/media-detail' },
-          { text: '历史记录、收藏与继续观看', link: '/docs/media/home/favorites-and-history' },
+          { text: '收藏、观看状态与继续观看', link: '/docs/media/home/favorites-and-history' },
           { text: '播放列表', link: '/docs/media/home/playlists' }
         ]
       },
+      { text: '历史记录', link: '/docs/media/history' },
       {
         text: '在线媒体',
         collapsed: true,

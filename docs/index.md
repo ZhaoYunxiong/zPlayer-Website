@@ -142,7 +142,7 @@ hero:
         <li>历史记录、已观看状态和收藏彼此独立，首页栏目可以分别筛选</li>
         <li>播放进度可按需同步到媒体服务器，外部账户同步观看记录</li>
       </ul>
-      <a class="zplayer-home-inline-link" href="./docs/media/home/favorites-and-history">查看历史记录与同步说明 <span>→</span></a>
+      <a class="zplayer-home-inline-link" href="./docs/media/history">查看历史记录与同步说明 <span>→</span></a>
     </div>
     <div class="zplayer-home-history-image">
       <img src="./assets/screenshots/history.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 侧边栏中的历史记录页面" />
@@ -188,8 +188,8 @@ hero:
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🧾</span>
-        <h3><a class="zplayer-home-advantage-title" href="./docs/media/home/favorites-and-history">播放历史与收藏夹</a></h3>
-        <p>自动记录观看足迹，聚合展示收藏与偏好内容。</p>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/history">播放历史</a></h3>
+        <p>自动记录观看足迹，按日期分组找回真正播放过的内容。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🔄</span>

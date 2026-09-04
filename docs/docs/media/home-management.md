@@ -53,7 +53,7 @@
 
 ### 收藏
 
-直接进入收藏内容。想长期保留某部作品时用收藏；想按主题整理一组片子时，使用片单会更合适，区别见[历史记录、收藏与继续观看](/docs/media/home/favorites-and-history)和[片单](/docs/media/home/playlists)。
+直接进入收藏内容。想长期保留某部作品时用收藏；想按主题整理一组片子时，使用片单会更合适，区别见[收藏、观看状态与继续观看](/docs/media/home/favorites-and-history)和[片单](/docs/media/home/playlists)。
 
 ### 右上角“更多”
 
@@ -81,5 +81,6 @@
 | 修正 TMDB 匹配或手动编辑资料 | [TMDB 与元数据](/docs/media/home/metadata) |
 | 搜索、筛选和查看联网推荐 | [搜索、分类与推荐](/docs/media/home/search-and-recommendation) |
 | 查看一部电影或电视剧的完整信息 | [媒体详情](/docs/media/home/media-detail) |
-| 管理历史记录、收藏、观看状态和继续观看 | [历史记录、收藏与继续观看](/docs/media/home/favorites-and-history) |
+| 按日期查看播放记录、分组、排序和统计 | [历史记录](/docs/media/history) |
+| 管理收藏、观看状态和继续观看 | [收藏、观看状态与继续观看](/docs/media/home/favorites-and-history) |
 | 按主题整理一组固定内容 | [片单](/docs/media/home/playlists) |
