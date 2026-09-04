@@ -12,12 +12,17 @@
 
 “连接管理”可以从“媒体库”页面进入，首页也有同名入口。保存后回到首页，zPlayer 会自动刷新刚添加的来源。
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/connection-management.png" alt="zPlayer 连接管理页面，展示已添加的媒体来源" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/connection-management.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="zPlayer 连接管理页面，展示已添加的媒体来源" />
 <p class="zplayer-screenshot-caption">图：连接管理集中显示来源状态，并提供启用、编辑、收藏和删除入口。</p>
 
-服务需要填写哪些地址、账户、密码、路径或授权信息，由具体服务决定；照着当前页面的字段填写即可。本页先讲选择逻辑和容易踩坑的地方。
+服务需要填写哪些地址、账户、密码、路径或授权信息，由具体服务决定。可以直接按来源阅读：
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/connection-add-categories.png" alt="zPlayer 连接管理中的添加连接分类" />
+- [本地与网络文件服务](/docs/media/connections/local-and-network)：本地文件夹、SMB、FTP、SFTP、WebDAV、AList、OpenList；
+- [云盘与对象存储](/docs/media/connections/cloud-and-object-storage)：S3、Google Drive、OneDrive、Dropbox 和 115 网盘状态；
+- [媒体服务器](/docs/media/connections/media-servers)：Emby、Jellyfin、Plex、飞牛影视、极影视与 DLNA；
+- [连接检查、备份与迁移](/docs/media/connections/backup-and-health)：检查全部、`.zplinks` 导出、覆盖或融合导入。
+
+<img class="zplayer-screenshot" src="../../assets/screenshots/connection-add-categories.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="zPlayer 连接管理中的添加连接分类" />
 <p class="zplayer-screenshot-caption">图：添加连接按本地媒体、网络文件服务、云盘与对象存储、媒体服务器等类别组织；先选类别，再选择具体服务。</p>
 
 ## 先分清两个“分类”
@@ -29,19 +34,19 @@
 - **来源分类**：帮助你找到要添加的服务。
 - **内容类型**：告诉首页管理应该把这批内容按什么方式交给 TMDB 刮削。
 
-下面说的“电影 / 电视剧 / 音乐”，指的是第二个“内容类型”。它会直接影响首页刮削结果。
+下面说的“电影/剧场版”“剧集/动漫/电视剧”“音乐”，指的是第二个“内容类型”。它会直接影响首页刮削结果。
 
 ## 内容类型一定要选准确
 
 对于非媒体服务器来源，zPlayer 需要你主动选择内容类型。请按这个连接对应的目录实际内容来选：
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/connection-folder-form.png" alt="zPlayer 本地文件夹连接设置表单" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/connection-folder-form.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="zPlayer 本地文件夹连接设置表单" />
 <p class="zplayer-screenshot-caption">图：文件夹连接的表单会让你填写别名、内容类型和路径；这里的“内容类型”会直接影响后续刮削。</p>
 
 | 目录里的内容 | 内容类型 | 适合的添加方式 |
 | --- | --- | --- |
-| 一整个目录都是电影 | 电影 | 单独添加电影目录 |
-| 一整个目录都是电视剧 | 电视剧 | 单独添加电视剧目录 |
+| 一整个目录都是电影或剧场版 | 电影/剧场版 | 单独添加电影目录 |
+| 一整个目录都是剧集、动漫或电视剧 | 剧集/动漫/电视剧 | 单独添加剧集目录 |
 | 一整个目录都是音乐 | 音乐 | 添加音乐目录或在线音乐来源 |
 | 不想参与首页刮削的内容 | 无 | 只用于目录浏览或临时访问 |
 
@@ -49,8 +54,8 @@
 
 ```text
 媒体/
-├─ 电影/       ← 作为一个连接，内容类型选“电影”
-├─ 电视剧/     ← 作为一个连接，内容类型选“电视剧”
+├─ 电影/       ← 作为一个连接，内容类型选“电影/剧场版”
+├─ 电视剧/     ← 作为一个连接，内容类型选“剧集/动漫/电视剧”
 └─ 音乐/       ← 作为一个连接，内容类型选“音乐”
 ```
 
@@ -62,7 +67,7 @@
 
 文件服务的另一个好处是保留了原来的目录层级。你可以先进入剧集目录，再进入季目录，最后从具体视频文件播放；这适合只想按文件结构找片的场景。
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/file-service-season.png" alt="zPlayer 文件服务中的剧集季目录和视频文件" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/file-service-season.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="zPlayer 文件服务中的剧集季目录和视频文件" />
 <p class="zplayer-screenshot-caption">图：进入季目录后，文件服务会把视频文件、分辨率、大小、时长和观看进度放在一起显示。</p>
 
 ### 在线音乐是特殊情况
@@ -75,7 +80,7 @@
 
 | 来源分类 | 常见服务 | 适合什么情况 |
 | --- | --- | --- |
-| **本地媒体** | 本地磁盘、视频库、音乐库、图片库、存储箱 | 媒体就在这台 Windows 电脑或已挂载的磁盘上。 |
+| **本地媒体** | 本地磁盘、视频库、音乐库、图片库、储物箱 | 媒体就在这台 Windows 电脑或已挂载的磁盘上。 |
 | **网络文件服务** | FTP、SFTP、SMB、WebDAV、AList、OpenList | 媒体放在 NAS、局域网共享或远程文件目录中。 |
 | **云盘与对象存储** | S3、Google Drive、OneDrive、Dropbox 等 | 媒体放在云端或对象存储中。115 网盘连接暂不可用，见下文。 |
 | **媒体服务器** | Emby、Jellyfin、Plex、极影视、飞牛影视、DLNA 等 | 服务端已经提供了媒体库、媒体信息或播放入口。 |
@@ -90,7 +95,7 @@
 
 ## 媒体服务器：先理解两种模式
 
-添加 Emby、Jellyfin、Plex、极影视或飞牛影视时，部分服务会提供“媒体库模式”开关。它和普通目录连接的思路不一样。
+添加 Emby、Jellyfin、Plex、极影视或飞牛影视时，部分服务会提供“媒体库模式”开关。它和普通目录连接的思路不一样；服务器地址、端口和登录方法见[媒体服务器连接](/docs/media/connections/media-servers)。
 
 媒体服务器不需要你再手动选择“电影”或“电视剧”。它会根据服务器返回的媒体库和内容信息决定如何展示；不要为了配合服务器再额外套一个本地目录的内容类型。
 
@@ -140,4 +145,4 @@ http://你的飞牛地址:8005
 
 如果能浏览但首页海报不对，优先回到“内容类型”和目录结构检查；如果来源完全没有出现，再检查服务地址、账户权限、网络和具体服务是否在线。
 
-接下来可以继续阅读[首页管理](/docs/media/home-management)，了解如何在连接正确之后进行扫描、刮削和整理。
+连接较多时，可以在“连接管理”右上角使用“检查全部”；换电脑前则先导出 `.zplinks`。完整流程见[连接检查、备份与迁移](/docs/media/connections/backup-and-health)。接下来可以继续阅读[首页管理](/docs/media/home-management)，了解如何在连接正确之后进行扫描、刮削和整理。

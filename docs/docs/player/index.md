@@ -4,10 +4,10 @@
 
 第一次使用时不用急着改一大堆选项：先用默认设置播放一段，确认片源、声音和字幕都正常，再根据实际问题调整。这样出了问题也知道是哪一项设置造成的。
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/player.png" alt="zPlayer 播放器页面，显示视频画面、字幕、弹幕和底部控制栏" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/player.webp" width="1840" height="1035" loading="lazy" decoding="async" alt="zPlayer 播放器页面，显示视频画面、字幕、弹幕和底部控制栏" />
 <p class="zplayer-screenshot-caption">图：播放器控制栏可以在观看时调出，画面中也可以同时显示字幕和弹幕。</p>
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/player-high-energy.png" alt="zPlayer 播放器显示弹幕、字幕和高能进度条" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/player-high-energy.webp" width="1840" height="1035" loading="lazy" decoding="async" alt="zPlayer 播放器显示弹幕、字幕和高能进度条" />
 <p class="zplayer-screenshot-caption">图：高能进度条会把音频波形、章节标记和当前播放位置放在同一条时间线上，找片段时比盲拖更直观。</p>
 
 ## 先记住三个入口

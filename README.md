@@ -24,8 +24,13 @@
 
     npm install
     npm run docs:dev
+    npm run docs:check
+    npm run docs:check-built
+    npm run docs:verify
     npm run docs:build
     npm run docs:preview
+
+提交前建议运行 `npm run docs:verify`。它会检查内部链接、首页功能入口、导航和截图资源，执行正式构建，并确认构建产物中的章节锚点都能直达；GitHub Pages 发布流程也使用同一条命令。
 
 ## GitHub Pages
 

@@ -2,7 +2,7 @@
 
 zPlayer 播放音乐时，会打开独立的音乐播放器，而不是把音频硬塞进视频播放器。它更像一个专门为歌曲准备的小型播放空间：背景使用专辑封面，底部负责播放控制，歌词负责跟着音乐变化。
 
-如果你只是偶尔打开一个本地音频文件，双击文件即可；如果你有一批音乐，或者想使用网易云音乐、QQ 音乐中的歌单，建议先通过[文件服务](/docs/media/file-services)添加来源。这样歌单、播放记录和音乐栏目才能长期保留下来。
+如果只是偶尔打开一个本地音频文件，可以使用“打开 → 文件”；在 Windows 11 中把对应格式的默认应用设为 zPlayer 后也可直接双击。如果有一批音乐，或者想使用网易云音乐、QQ 音乐中的歌单，建议先通过[文件服务](/docs/media/file-services)添加来源。这样歌单、播放记录和音乐栏目才能长期保留下来。
 
 ## 在线音乐：先登录来源，再从歌单开始
 
@@ -47,7 +47,7 @@ zPlayer 播放音乐时，会打开独立的音乐播放器，而不是把音频
 
 歌词没有加载出来时，先看播放器设置面板显示的歌词来源；如果来源为空，可以点击“打开歌词”手动选择文件。歌词整体提前或延后时，用“字幕延迟”左右调整，不要先去修改歌曲文件本身。
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/music-player-lyrics.png" alt="zPlayer 独立音乐播放器显示动态歌词" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/music-player-lyrics.webp" width="1638" height="1130" loading="lazy" decoding="async" alt="zPlayer 独立音乐播放器显示动态歌词" />
 <p class="zplayer-screenshot-caption">图：独立音乐播放器将专辑封面、动态歌词和播放控制放在同一个窗口中。</p>
 
 ## PV 歌词动画：让歌词更像音乐视频

@@ -13,8 +13,10 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '软件简介', link: '/docs/getting-started/overview' },
+      { text: '首页功能与文档索引', link: '/docs/features' },
       { text: '下载、安装与更新', link: '/docs/getting-started/install' },
       { text: '首次启动', link: '/docs/getting-started/first-launch' },
+      { text: '打开文件、链接与种子', link: '/docs/getting-started/open-media' },
       { text: '内购解锁', link: '/docs/getting-started/unlock' },
       { text: '主界面与基本概念', link: '/docs/getting-started/interface' }
     ]
@@ -24,7 +26,17 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '媒体库总览', link: '/docs/media/' },
-      { text: '文件服务', link: '/docs/media/file-services' },
+      {
+        text: '文件服务与连接',
+        collapsed: true,
+        items: [
+          { text: '文件服务概览', link: '/docs/media/file-services' },
+          { text: '本地与网络文件服务', link: '/docs/media/connections/local-and-network' },
+          { text: '云盘与对象存储', link: '/docs/media/connections/cloud-and-object-storage' },
+          { text: '媒体服务器', link: '/docs/media/connections/media-servers' },
+          { text: '连接检查、备份与迁移', link: '/docs/media/connections/backup-and-health' }
+        ]
+      },
       {
         text: '首页管理',
         collapsed: true,
@@ -48,6 +60,18 @@ const sidebar = [
           { text: '搜索、线路与播放', link: '/docs/media/online/source-selection' }
         ]
       }
+    ]
+  },
+  {
+    text: '工具与扩展',
+    collapsed: false,
+    items: [
+      { text: '工具与扩展概览', link: '/docs/tools/' },
+      { text: '流媒体链接', link: '/docs/tools/streaming' },
+      { text: '媒体处理工具箱', link: '/docs/tools/media-toolbox' },
+      { text: '媒体属性与 Markdown 导出', link: '/docs/tools/media-properties-and-export' },
+      { text: '投屏与局域网共享', link: '/docs/tools/casting-and-sharing' },
+      { text: '储物箱与加密播放', link: '/docs/tools/storage-box' }
     ]
   },
   {
@@ -88,6 +112,11 @@ const sidebar = [
       { text: '播放、解码与画质', link: '/docs/settings/playback' },
       { text: '在线服务', link: '/docs/settings/online-services' },
       { text: 'AI、Whisper、RSS 与模块', link: '/docs/settings/ai-and-modules' },
+      { text: 'AI 模型与内容理解', link: '/docs/settings/ai' },
+      { text: 'RSS 订阅与自动下载', link: '/docs/settings/rss' },
+      { text: '模块与启动页', link: '/docs/settings/modules' },
+      { text: '字幕设置', link: '/docs/settings/subtitles' },
+      { text: '弹幕设置', link: '/docs/settings/danmaku' },
       { text: '账户、网络与其他', link: '/docs/settings/account-and-network' },
       { text: '调试与日志', link: '/docs/settings/debug' }
     ]
@@ -116,10 +145,16 @@ export default defineConfig({
   description: '面向 Windows 的媒体库与播放器',
   cleanUrls: true,
   head: [
-    ['link', { rel: 'icon', href: base + 'assets/logo.png' }]
+    ['link', { rel: 'icon', href: base + 'assets/logo.png' }],
+    ['meta', { name: 'theme-color', content: '#5b5bd6' }],
+    ['meta', { name: 'keywords', content: 'zPlayer,Windows 播放器,媒体库,NAS,Emby,Jellyfin,Plex' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'zPlayer · 让播放更智能更优雅' }],
+    ['meta', { property: 'og:description', content: '面向 Windows 的媒体库与播放器' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }]
   ],
   themeConfig: {
-    logo: base + 'assets/logo.png',
+    logo: '/assets/logo.png',
     siteTitle: 'zPlayer',
     nav,
     sidebar: {

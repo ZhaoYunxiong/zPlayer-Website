@@ -2,7 +2,7 @@
 
 首页卡片适合快速浏览，媒体详情才是处理一部作品的地方。这里可以确认刮削是否正确、选择季集和片源、开始播放，也可以完成收藏、片单、重新刮削和元数据编辑。
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/media-detail.png" alt="zPlayer 媒体详情页面，展示作品资料、播放入口和剧集列表" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/media-detail.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 媒体详情页面，展示作品资料、播放入口和剧集列表" />
 <p class="zplayer-screenshot-caption">图：媒体详情页把作品资料、播放入口、片源和剧集放在同一处。</p>
 
 ## 详情页上能看到什么
@@ -17,7 +17,7 @@
 
 如果你发现整部作品匹配错了，先不要逐字段修改，优先使用“重新刮削”选择正确的 TMDB 条目。
 
-### 章节、剧情与内容结构
+### 章节、剧情与内容结构 {#content-structure}
 
 部分媒体详情会显示章节和剧情栏目：上方可以按集查看已经识别出的章节，下面的内容区域则可以按剧情线、角色或其他语义内容浏览片段。它们不是单纯的剧情文字，而是和视频时间轴相连的内容卡片，点击后可以直接定位或播放对应片段。
 
@@ -29,7 +29,7 @@
 
 如果启用了 AI 章节和故事剧情功能，zPlayer 会根据媒体内容整理章节、剧情线、角色或关键片段。媒体详情页适合在播放前快速了解整部作品的结构，播放器里的“列表 → 内容结构”则适合边看边搜索、跳转和添加书签。AI 结果仍然可以在对应模块中检查和调整，不必把它当成不可修改的固定答案。
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/media-detail-chapters.png" alt="zPlayer 媒体详情页的章节和剧情内容栏目" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/media-detail-chapters.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 媒体详情页的章节和剧情内容栏目" />
 <p class="zplayer-screenshot-caption">图：媒体详情页可以按集查看章节，并按剧情线浏览可直接定位的内容片段；这些内容与播放器的“内容结构”面板互通。</p>
 
 ## 电影和电视剧的查看方式不同

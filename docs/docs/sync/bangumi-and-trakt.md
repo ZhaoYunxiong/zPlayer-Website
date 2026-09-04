@@ -21,7 +21,7 @@ Bangumi 和 Trakt 都能记录“看过哪些内容”，但适合的内容和�
 
 这里会看到 Bangumi 和 Trakt 各自的设置区域。两者互相独立，可以只登录其中一个，也可以同时使用；第一次配置时建议只启用一个，出了问题更容易判断是哪一环。
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/sync-settings.png" alt="zPlayer 的 Bangumi 与 Trakt 同步设置界面" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/sync-settings.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 的 Bangumi 与 Trakt 同步设置界面" />
 <p class="zplayer-screenshot-caption">图：外部账号同步集中在首页设置的历史记录区域，登录和拉取、推送方向分别控制。</p>
 
 ## 页面上的开关分别做什么？

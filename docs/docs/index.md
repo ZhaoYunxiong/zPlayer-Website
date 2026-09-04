@@ -10,11 +10,15 @@
 4. 根据媒体来源阅读[文件服务](/docs/media/file-services)、[首页管理](/docs/media/home-management)或[在线媒体](/docs/media/online-media)
 5. 播放遇到问题时查看[播放器](/docs/player/)和[故障排查](/docs/troubleshooting/)
 
+官网首页的每个功能标题都可以直接进入对应说明；也可以查看完整的[首页功能与文档索引](/docs/features)。
+
 ## 三种媒体入口
 
 ### 文件服务
 
 面向已有媒体文件或媒体服务。它关注连接、扫描、目录结构和文件访问，不要求每个来源都先整理成海报墙。
+
+按来源继续阅读：[本地与网络文件服务](/docs/media/connections/local-and-network)、[云盘与对象存储](/docs/media/connections/cloud-and-object-storage)、[媒体服务器](/docs/media/connections/media-servers)。
 
 ### 首页管理
 
@@ -27,3 +31,5 @@
 ## 文档阅读方式
 
 “设置参考”用于查询具体选项；实际使用流程优先放在“媒体库”“播放器”“同步”中。菜单名称或功能位置有疑问时，以软件中的实际页面为准。
+
+流媒体、投屏、媒体处理和储物箱等独立能力集中在[工具与扩展](/docs/tools/)。

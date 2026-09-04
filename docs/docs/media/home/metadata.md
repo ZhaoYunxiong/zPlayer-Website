@@ -34,7 +34,7 @@
 
 手动搜索特别适合电影重名、剧名有多个译名、旧剧翻拍、特别篇和动漫剧场版。选中正确条目后，首页的标题、海报和栏目筛选也会随之改善。
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/media-detail-tmdb-picker.png" alt="zPlayer 媒体详情中的 TMDB 条目选择界面" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/media-detail-tmdb-picker.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 媒体详情中的 TMDB 条目选择界面" />
 <p class="zplayer-screenshot-caption">图：重新刮削时，对照海报、年份和简介，从 TMDB 搜索结果中选中正确作品。</p>
 
 ## 编辑元数据
@@ -47,7 +47,7 @@
 
 编辑时建议先改最影响识别和浏览的字段：标题、海报、年份、简介、季集标题。演员、制片公司、内容分级等信息如果只是用于个人整理，也可以按需要补充。
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/media-detail-metadata-editor.png" alt="zPlayer 媒体详情中的元数据编辑界面" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/media-detail-metadata-editor.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 媒体详情中的元数据编辑界面" />
 <p class="zplayer-screenshot-caption">图：作品已经匹配正确时，可以直接编辑显示资料，不必重新搜索整部作品。</p>
 
 ### 什么时候应该重新刮削，什么时候应该编辑
@@ -58,7 +58,7 @@
 - **只有某一季或某一集不准确**：进入对应季、集的编辑范围处理，不要为了一个集数重刮整个库。
 
 ::: tip 给“缺少海报或评分”做一个栏目
-如果你经常整理媒体，可以在[动态栏目](/docs/media/home/layout#动态栏目按条件生成你的首页)中使用“识别状态”或“元数据完整性”条件，自动把待修复的内容集中到首页。修完后它会自然从这个栏目中消失。
+如果你经常整理媒体，可以在[动态栏目](/docs/media/home/layout#dynamic-columns)中使用“识别状态”或“元数据完整性”条件，自动把待修复的内容集中到首页。修完后它会自然从这个栏目中消失。
 :::
 
 ## 修改后为什么首页还没变化

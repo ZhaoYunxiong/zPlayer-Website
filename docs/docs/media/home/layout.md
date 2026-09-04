@@ -41,7 +41,7 @@
 
 这些排序和显示状态会直接保存，不需要另外寻找提交按钮。建议一开始只保留“继续观看、最近更新、电影、电视剧”和自己最常用的 1～2 个栏目，首页会更容易浏览。
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/home-columns.png" alt="zPlayer 首页的栏目管理页面" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/home-columns.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="zPlayer 首页的栏目管理页面" />
 <p class="zplayer-screenshot-caption">图：在首页点击“栏目”即可管理内置栏目，也可以从这里开始创建自己的动态栏目。</p>
 
 ::: tip “栏目管理”和“设置里的首页选项”不是一回事
@@ -52,7 +52,7 @@
 
 当首页栏目较多时，可以在设置中打开“首页栏目导航”。它会提供一个快速定位栏，点击栏目名称即可跳到对应位置；如果你喜欢连续滚动浏览，也可以关闭它。
 
-## 动态栏目：按条件生成你的首页
+## 动态栏目：按条件生成你的首页 {#dynamic-columns}
 
 ### 创建入口
 
@@ -74,7 +74,7 @@
 
 规则来源可以是已刮削的本地或网络文件来源，也可以是媒体服务器返回的媒体库。一个栏目可以添加多个规则来源，因此可以把 NAS 的电影和 Emby 的电影放到同一个“高分电影”栏目里。
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/dynamic-column-source-picker.png" alt="动态栏目选择来源或媒体库" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/dynamic-column-source-picker.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="动态栏目选择来源或媒体库" />
 <p class="zplayer-screenshot-caption">图：添加规则时先选择来源或媒体库；来源名称下方会同时显示连接类型和媒体分类，方便确认筛选范围。</p>
 
 媒体服务器能提供哪些筛选字段，取决于服务器支持的查询能力；普通来源的可用字段通常更多。如果规则来源里没有你想选的字段，先确认媒体服务器模式和服务器本身是否提供了这类信息。
@@ -83,7 +83,7 @@
 
 常用条件包括：
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/dynamic-column-filter-menu.png" alt="动态栏目添加筛选条件菜单" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/dynamic-column-filter-menu.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="动态栏目添加筛选条件菜单" />
 <p class="zplayer-screenshot-caption">图：筛选条件不只有题材和评分，还可以按观看状态、收藏状态、元数据完整性、剧集状态等维度组织首页。</p>
 
 | 条件 | 适合怎么用 |
@@ -102,15 +102,15 @@
 
 可以先使用编辑页提供的模板，再按自己的媒体库调整。模板包括“今日更新动漫”“最近 30 天更新且未看完”“8 分以上且未看完”“收藏且未看完”“4K HDR 且未看完”“近期更新的在播剧”“高分完结剧”和“缺少海报或评分”等常见场景。
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/dynamic-column-condition.png" alt="动态栏目编辑器中的筛选条件" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/dynamic-column-condition.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="动态栏目编辑器中的筛选条件" />
 <p class="zplayer-screenshot-caption">图：添加条件后，编辑器会把条件显示在规则组中，并在右侧同步给出栏目预览。</p>
 
 以“评分不低于 8 分”为例，点击条件值即可从预设档位中选择；再配合“未观看”或“观看中”，就能做出真正适合自己观看习惯的栏目。
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/dynamic-column-filter-values.png" alt="动态栏目选择最低评分筛选值" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/dynamic-column-filter-values.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="动态栏目选择最低评分筛选值" />
 <p class="zplayer-screenshot-caption">图：数值类条件提供常用档位，先用 8.0+ 这类简单规则验证结果，再继续细调。</p>
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/dynamic-column-preview.png" alt="动态栏目编辑器中的实时预览" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/dynamic-column-preview.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="动态栏目编辑器中的实时预览" />
 <p class="zplayer-screenshot-caption">图：右侧预览用于快速检查规则是否命中了预期内容；确认无误后保存，栏目就会固定到首页。</p>
 
 ### 规则组怎么理解

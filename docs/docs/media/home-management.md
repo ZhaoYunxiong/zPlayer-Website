@@ -1,10 +1,10 @@
 # 首页管理：把媒体整理成真正想看的首页
 
-如果你只是临时打开一个视频，文件服务甚至不是必需的——在资源管理器里双击文件，或使用左上角的“打开文件”就能播放。
+如果只是临时打开一个视频，文件服务甚至不是必需的——使用左上角的“打开 → 文件”就能播放；在 Windows 11 中把对应格式的默认应用设为 zPlayer 后，也可以从资源管理器双击。
 
 但当你有一批电影、电视剧，或者同一套媒体同时来自本地、NAS、Emby、Jellyfin、Plex 时，单纯按文件夹找片会很快变得混乱。首页管理就是为这个场景准备的：zPlayer 会把来源中的媒体识别出来，补齐海报、评分、剧情、演员和剧集信息，再用海报墙和栏目呈现出来。
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/home.png" alt="zPlayer 首页，展示媒体推荐、继续观看和媒体库栏目" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/home.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="zPlayer 首页，展示媒体推荐、继续观看和媒体库栏目" />
 <p class="zplayer-screenshot-caption">图：首页把推荐、继续观看和不同媒体来源组织成可滚动的栏目。</p>
 
 ## 首页管理到底负责什么
@@ -28,7 +28,7 @@
 5. 以后新增或移除来源，保存后回到首页即可；不需要养成手动刷新首页的习惯。
 
 ::: tip 只想播放一个文件？
-资源管理器双击文件，或使用左上角的“打开文件”更快。连接管理更适合长期使用：它能让目录持续出现在首页，并参与搜索、刮削、收藏和继续观看。
+使用左上角的“打开 → 文件”更快；设置好 Windows 默认应用后也可双击文件。连接管理更适合长期使用：它能让目录持续出现在首页，并参与搜索、刮削、收藏和继续观看。
 :::
 
 ## 首页上方的几个入口
@@ -49,7 +49,7 @@
 
 ### 栏目
 
-进入“栏目管理”，可以调整首页现有栏目和来源栏目的显示状态、顺序，还能新建自定义动态栏目。它是首页最值得花时间配置的功能，详见[首页栏目与布局](/docs/media/home/layout)和[动态栏目：按条件生成你的首页](/docs/media/home/layout#动态栏目按条件生成你的首页)。
+进入“栏目管理”，可以调整首页现有栏目和来源栏目的显示状态、顺序，还能新建自定义动态栏目。它是首页最值得花时间配置的功能，详见[首页栏目与布局](/docs/media/home/layout)和[动态栏目：按条件生成你的首页](/docs/media/home/layout#dynamic-columns)。
 
 ### 收藏
 
@@ -59,7 +59,7 @@
 
 这里有联网推荐、设置为启动页和导出刮削调试信息等入口。遇到刮削错误时，最重要的是“导出刮削调试信息”，具体反馈方式见[日志导出与反馈](/docs/troubleshooting/logs-and-feedback)。
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/home-more-menu.png" alt="zPlayer 首页右上角的更多菜单" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/home-more-menu.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 首页右上角的更多菜单" />
 <p class="zplayer-screenshot-caption">图：首页的“更多”菜单集中放置联网推荐、启动页和刮削信息导出等不常用但很重要的入口。</p>
 
 ## 首页内容不对时，先别急着全库重刮

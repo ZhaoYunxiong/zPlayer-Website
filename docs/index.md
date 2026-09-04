@@ -28,12 +28,12 @@ hero:
       </div>
       <ul class="zplayer-home-check-list">
         <li>本地、NAS、网络协议和网盘，都可以按目录直接浏览</li>
-        <li>Emby、Jellyfin、Plex、飞牛、极空间、DLNA 等媒体服务器统一连接</li>
+        <li>Emby、Jellyfin、Plex、飞牛影视、极影视（Beta）、DLNA 等媒体服务器统一连接</li>
         <li>从文件服务开始，也可以继续整理成刮削首页</li>
       </ul>
     </div>
     <div class="zplayer-home-window">
-      <img src="./assets/screenshots/home.png" alt="zPlayer 首页的媒体推荐、继续观看和媒体库栏目" />
+      <img src="./assets/screenshots/home.webp" width="1727" height="1258" decoding="async" fetchpriority="high" alt="zPlayer 首页的媒体推荐、继续观看和媒体库栏目" />
     </div>
   </section>
 
@@ -51,7 +51,7 @@ hero:
         <a class="zplayer-home-inline-link" href="./docs/media/file-services">查看连接管理说明 <span>→</span></a>
       </div>
       <div class="zplayer-home-connection-image">
-        <img src="./assets/screenshots/connection-management.png" alt="zPlayer 连接管理页面，集中管理本地、NAS 和媒体服务器来源" />
+        <img src="./assets/screenshots/connection-management.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="zPlayer 连接管理页面，集中管理本地、NAS 和媒体服务器来源" />
       </div>
     </div>
   </section>
@@ -70,7 +70,7 @@ hero:
         <a class="zplayer-home-inline-link" href="./docs/media/file-services">查看文件服务 <span>→</span></a>
       </div>
       <div class="zplayer-home-feature-image">
-        <img src="./assets/screenshots/file-service-season.png" alt="zPlayer 文件服务中的季目录和视频文件" />
+        <img src="./assets/screenshots/file-service-season.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="zPlayer 文件服务中的季目录和视频文件" />
       </div>
     </div>
   </section>
@@ -88,13 +88,13 @@ hero:
       <a class="zplayer-home-inline-link" href="./docs/media/home/playlists">了解片单怎么用 <span>→</span></a>
     </div>
     <div class="zplayer-home-feature-image">
-      <img src="./assets/screenshots/home-playlist.png" alt="zPlayer 首页中的片单栏目和海报卡片" />
+      <img src="./assets/screenshots/home-playlist.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 首页中的片单栏目和海报卡片" />
     </div>
   </section>
 
   <section class="zplayer-home-section zplayer-home-detail-stage">
     <div class="zplayer-home-detail-image">
-      <img src="./assets/screenshots/media-detail.png" alt="zPlayer 媒体详情页，展示作品资料、剧集列表和播放入口" />
+      <img src="./assets/screenshots/media-detail.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 媒体详情页，展示作品资料、剧集列表和播放入口" />
     </div>
     <div class="zplayer-home-detail-copy">
       <p class="zplayer-home-eyebrow">媒体详情</p>
@@ -127,7 +127,7 @@ hero:
         <a class="zplayer-home-inline-link" href="./docs/player/">看看播放器能做什么 <span>→</span></a>
       </div>
       <div class="zplayer-home-player-image">
-        <img src="./assets/screenshots/player.png" alt="zPlayer 播放器界面，显示画面、字幕、弹幕和控制栏" />
+        <img src="./assets/screenshots/player.webp" width="1840" height="1035" loading="lazy" decoding="async" alt="zPlayer 播放器界面，显示画面、字幕、弹幕和控制栏" />
       </div>
     </div>
   </section>
@@ -145,7 +145,7 @@ hero:
       <a class="zplayer-home-inline-link" href="./docs/media/home/favorites-and-history">查看历史记录与同步说明 <span>→</span></a>
     </div>
     <div class="zplayer-home-history-image">
-      <img src="./assets/screenshots/history.png" alt="zPlayer 侧边栏中的历史记录页面" />
+      <img src="./assets/screenshots/history.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 侧边栏中的历史记录页面" />
     </div>
   </section>
 
@@ -158,107 +158,107 @@ hero:
     <div class="zplayer-home-advantage-grid">
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">📂</span>
-        <h3>媒体库管理</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/file-services">媒体库管理</a></h3>
         <p>支持本地文件夹、FTP、SFTP、SMB、WebDAV、AList 等多源挂载。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">☁️</span>
-        <h3>同步媒体服务器</h3>
-        <p>无缝接入 Emby、Jellyfin、Plex 等媒体服务器，实现跨平台浏览与播放。</p>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/connections/media-servers">同步媒体服务器</a></h3>
+        <p>接入 Emby、Jellyfin、Plex 等媒体服务器，在 Windows 上统一浏览与播放。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🌐</span>
-        <h3>在线媒体</h3>
-        <p>支持从在线站点浏览和搜索；匹配 TMDB 后进入统一详情，也可在未匹配时直接选择线路播放。</p>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/online-media">在线媒体</a></h3>
+        <p>支持浏览和搜索已配置站点，可按设置优先进入统一详情，也可直接选择线路播放。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🏠</span>
-        <h3>首页管理</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/home-management">首页管理</a></h3>
         <p>通过扫描与刮削建立可搜索的媒体首页，支持动态栏目、片单与布局调整。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🗂️</span>
-        <h3>媒体详情</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/home/media-detail">媒体详情</a></h3>
         <p>集中处理 TMDB 匹配、季集、片源、收藏、片单、元数据，以及 AI 章节和故事剧情。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">📡</span>
-        <h3>DLNA 与局域网共享</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/tools/casting-and-sharing">DLNA 与局域网共享</a></h3>
         <p>支持投屏播放、媒体渲染与局域网文件共享。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🧾</span>
-        <h3>播放历史与收藏夹</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/home/favorites-and-history">播放历史与收藏夹</a></h3>
         <p>自动记录观看足迹，聚合展示收藏与偏好内容。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🔄</span>
-        <h3>观看进度同步</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/sync/">观看进度同步</a></h3>
         <p>可将播放进度同步到媒体服务器，并将观看记录同步到 Bangumi 与 Trakt。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🎬</span>
-        <h3>智能播放引擎</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/player/engine-and-decoder">智能播放引擎</a></h3>
         <p>兼容多格式音视频，提供高性能解码与硬件加速支持。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">⚡</span>
-        <h3>快速启动与续播</h3>
-        <p>毫秒启动，自动记忆上次播放进度，随时恢复沉浸体验。</p>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/home/favorites-and-history#继续观看">快速启动与续播</a></h3>
+        <p>直接打开媒体并自动记忆上次播放进度，回来后可以继续观看。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🎞️</span>
-        <h3>画面预设与滤镜</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/player/video-quality">画面预设与滤镜</a></h3>
         <p>支持 Anime4K、补帧与色彩增强，呈现更出色的视觉体验。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🔊</span>
-        <h3>音频控制中心</h3>
-        <p>EQ 调节、音轨切换、音画同步与语音提取一应俱全。</p>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/player/audio">音频控制中心</a></h3>
+        <p>EQ 调节、音轨切换、音画同步与音轨提取一应俱全。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🖼️</span>
-        <h3>多字幕系统</h3>
-        <p>支持无上限加载字幕与弹幕，并提供自定义样式调整。</p>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/player/subtitles">多字幕系统</a></h3>
+        <p>可同时加载多条字幕轨道并叠加弹幕，支持翻译、动画和样式调整。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">📖</span>
-        <h3>书签与笔记系统</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/player/content-modules">书签与笔记系统</a></h3>
         <p>支持 AI 自动生成、章节时间轴标记、缩略图与概要记录，快速定位精彩片段。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">💡</span>
-        <h3>AI 智能助手</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/settings/ai">AI 智能助手</a></h3>
         <p>支持媒体摘要生成、问答解析与智能搜索，理解内容更深一层。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🪄</span>
-        <h3>多模态 AI</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/settings/ai#视觉模型与多模态">多模态 AI</a></h3>
         <p>结合文本与视觉识别，实现图像理解与语义分析。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🧰</span>
-        <h3>媒体处理工具箱</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/tools/media-toolbox">媒体处理工具箱</a></h3>
         <p>集成转码、剪辑、字幕、音轨与画面处理等多种实用工具。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🧭</span>
-        <h3>文档导出</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/tools/media-properties-and-export">文档导出</a></h3>
         <p>可一键导出视频属性 Markdown，保存影片笔记与解析记录。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">📡</span>
-        <h3>RSS 订阅中心</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/settings/rss">RSS 订阅中心</a></h3>
         <p>自动更新番剧订阅，支持离线下载与邮件推送统计。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">✨</span>
-        <h3>Fluent Design 设计</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/settings/appearance">Fluent Design 设计</a></h3>
         <p>以流畅动效与柔和光感，呈现现代美学体验。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🔐</span>
-        <h3>隐私与加密播放</h3>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/tools/storage-box">隐私与加密播放</a></h3>
         <p>支持登录 PIN，提供加密文件支持与私密空间保护，守护个人媒体安全。</p>
       </article>
     </div>

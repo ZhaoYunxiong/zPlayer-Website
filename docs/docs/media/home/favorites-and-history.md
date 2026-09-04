@@ -15,9 +15,9 @@
 
 打开媒体详情页不会自动产生观看记录；通常需要真正开始播放，zPlayer 才会把这次播放纳入记录。
 
-## 继续观看：打开软件后最快回到剧情
+## 继续观看
 
-“继续观看”是首页中最适合放在前排的栏目。它聚合尚未完成的电影、剧集或单集，点击卡片即可回到上次进度。
+这是打开软件后最快回到剧情的入口。“继续观看”是首页中最适合放在前排的栏目，它聚合尚未完成的电影、剧集或单集，点击卡片即可回到上次进度。
 
 电视剧会按具体季集保存进度。看完第一季的一集，不会自动把第二季或整部剧标记为已观看；如果只是打开了详情页，也不会因为浏览过资料就被算作看完。
 
@@ -38,9 +38,9 @@
 
 建议把“继续观看”放在首页前排，把完整的历史记录当作查找入口，把收藏和片单用于更稳定的内容整理。某个栏目不常用时，可以在[首页栏目与布局](/docs/media/home/layout)中关闭，而不是让它一直占据首页空间。
 
-如果你想要一个会自动变化的“最近看过”“正在追”“高分且未观看”栏目，不需要手动维护片单，直接用[动态栏目](/docs/media/home/layout#动态栏目按条件生成你的首页)按观看状态、来源、评分或更新时间筛选即可。
+如果你想要一个会自动变化的“最近看过”“正在追”“高分且未观看”栏目，不需要手动维护片单，直接用[动态栏目](/docs/media/home/layout#dynamic-columns)按观看状态、来源、评分或更新时间筛选即可。
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/history.png" alt="zPlayer 侧边栏中的历史记录页面" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/history.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 侧边栏中的历史记录页面" />
 <p class="zplayer-screenshot-caption">图：历史记录页面按日期展示最近播放的内容，并提供播放统计、分组切换、列表排序和清空入口。</p>
 
 ## 播放进度与媒体服务器同步
@@ -59,7 +59,7 @@
 
 如果你希望把“看过哪些作品”同步到外部账户，可以在 `设置 → 首页 → 历史记录` 中配置 Bangumi 或 Trakt。它们同步的是观看记录和已看状态，不是 zPlayer 的精确续播秒数。
 
-<img class="zplayer-screenshot" src="../../../assets/screenshots/sync-settings.png" alt="zPlayer 历史记录与 Bangumi、Trakt 同步设置" />
+<img class="zplayer-screenshot" src="../../../assets/screenshots/sync-settings.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 历史记录与 Bangumi、Trakt 同步设置" />
 <p class="zplayer-screenshot-caption">图：Bangumi 与 Trakt 的授权、拉取和推送开关都集中在首页设置的历史记录区域。</p>
 
 第一次配置建议只打开一个服务，并先用一部已经正确匹配 TMDB 的作品测试。需要了解授权、拉取、推送和匹配规则时，查看[Bangumi 与 Trakt](/docs/sync/bangumi-and-trakt)。

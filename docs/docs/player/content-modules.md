@@ -10,7 +10,7 @@
 
 播放列表中的内容模块对应后两个标签。软件界面里，“故事剧情”主要通过“内容结构”中的“剧情线”以及角色、关键物品等视图呈现。
 
-媒体详情页也有章节和剧情栏目。详情页适合在播放前纵览一部作品，播放器面板适合边看边定位；两边使用的是同一套章节、剧情和内容结构数据，在一个入口生成或维护后，另一个入口也会跟着使用。详情页的实际样式可以参考[媒体详情：章节、剧情与内容结构](/docs/media/home/media-detail#章节剧情与内容结构)。
+媒体详情页也有章节和剧情栏目。详情页适合在播放前纵览一部作品，播放器面板适合边看边定位；两边使用的是同一套章节、剧情和内容结构数据，在一个入口生成或维护后，另一个入口也会跟着使用。详情页的实际样式可以参考[媒体详情：章节、剧情与内容结构](/docs/media/home/media-detail#content-structure)。
 
 ## 播放列表：管理当前待播内容
 
@@ -33,17 +33,17 @@
 
 队列负责“现在怎么播”，保存的播放列表负责“以后还想这样播”。首页的固定片单和动态栏目，则属于[首页管理](/docs/media/home/playlists)的内容组织功能。
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/player-playlist-tab.png" alt="zPlayer 播放器的播放列表标签页" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/player-playlist-tab.webp" width="502" height="1036" loading="lazy" decoding="async" alt="zPlayer 播放器的播放列表标签页" />
 <p class="zplayer-screenshot-caption">图：播放列表标签页负责管理当前待播队列，适合临时连续播放或保存成固定清单。</p>
 
 ## 内容结构：给视频建立可以点击的目录
 
 打开“内容结构”后，软件会把当前媒体的时间轴内容整理成可以点击定位的卡片。每张卡片通常包含缩略图、名称、开始时间、结束时间、标签和描述；点击定位按钮即可跳到该片段。
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/player-content-structure.png" alt="zPlayer 播放器的内容结构标签页" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/player-content-structure.webp" width="502" height="1036" loading="lazy" decoding="async" alt="zPlayer 播放器的内容结构标签页" />
 <p class="zplayer-screenshot-caption">图：内容结构把章节、剧情线和语义标签整理成可以点击定位的内容目录。</p>
 
-### 章节书签：给时间轴留下自己的标记
+### 章节书签：给时间轴留下自己的标记 {#chapter-bookmarks}
 
 适合手动记录：精彩片段、重要知识点、名场面、需要复习的对白，或者下一次想直接跳过的片头片尾。
 
@@ -61,7 +61,7 @@
 
 内容结构顶部的 AI 按钮可以根据字幕或语音识别内容生成章节。生成后，可以从下拉菜单切换查看：
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/player-ai-story.png" alt="zPlayer 内容结构中的 AI 章节和故事剧情" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/player-ai-story.webp" width="502" height="1036" loading="lazy" decoding="async" alt="zPlayer 内容结构中的 AI 章节和故事剧情" />
 <p class="zplayer-screenshot-caption">图：AI 内容结构把视频拆成章节，并可以进一步查看剧情线、角色和关键物品等语义内容。</p>
 
 - 时间场景；
@@ -79,7 +79,7 @@
 
 AI 自动生成的章节适合快速建立目录；如果名称或时间不够准确，可以删除后重新生成。用户自己添加的书签则可以继续编辑，建议把真正重要的片段手动整理成清晰的标题和标签。
 
-## 内容搜索：用一句话找回视频片段
+## 内容搜索：用一句话找回视频片段 {#content-search}
 
 “内容搜索”不是首页的标题搜索，也不是“搜索字幕”。它只针对当前正在播放的媒体建立语义索引；播放电视剧时，通常就是当前这一集。
 
@@ -92,7 +92,7 @@ AI 自动生成的章节适合快速建立目录；如果名称或时间不够�
 
 搜索结果会以片段卡片展示相关缩略图、名称、起止时间、标签和描述。点击定位按钮即可跳到对应位置；展开卡片可以先看更完整的内容，再决定是否播放。
 
-<img class="zplayer-screenshot" src="../../assets/screenshots/player-content-search.png" alt="zPlayer 播放器的内容搜索标签页" />
+<img class="zplayer-screenshot" src="../../assets/screenshots/player-content-search.webp" width="502" height="1036" loading="lazy" decoding="async" alt="zPlayer 播放器的内容搜索标签页" />
 <p class="zplayer-screenshot-caption">图：内容搜索可以用自然语言寻找当前视频中的具体片段，再直接跳转到对应时间。</p>
 
 ### 内容搜索需要什么
