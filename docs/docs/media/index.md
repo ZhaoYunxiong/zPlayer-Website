@@ -6,8 +6,8 @@ zPlayer 的媒体内容管理分为四个相互配合的入口：
 | --- | --- | --- |
 | [文件服务](/docs/media/file-services) | 连接、目录、文件和来源 | 已经有本地或远程媒体文件 |
 | [首页管理](/docs/media/home-management) | 扫描、刮削、元数据和首页 | 想用海报墙和栏目管理媒体 |
-| [历史记录](/docs/media/history) | 播放足迹、分组、排序和统计 | 想按时间找回真正播放过的内容 |
 | [在线媒体](/docs/media/online-media) | 站点、搜索、线路和片源 | 直接从在线服务查找和播放 |
+| [历史记录](/docs/media/history) | 播放足迹、分组、排序和[播放统计](/docs/media/history/playback-statistics) | 想按时间找回真正播放过的内容 |
 
 推荐流程是：先添加一个文件服务并验证播放，再决定是否开启首页管理；在线媒体可以独立配置，不必依赖本地媒体库。
 

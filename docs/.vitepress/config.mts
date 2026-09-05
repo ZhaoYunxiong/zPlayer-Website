@@ -51,7 +51,6 @@ const sidebar = [
           { text: '播放列表', link: '/docs/media/home/playlists' }
         ]
       },
-      { text: '历史记录', link: '/docs/media/history' },
       {
         text: '在线媒体',
         collapsed: true,
@@ -59,6 +58,14 @@ const sidebar = [
           { text: '在线媒体概览', link: '/docs/media/online-media' },
           { text: '站点类型', link: '/docs/media/online/site-types' },
           { text: '搜索、线路与播放', link: '/docs/media/online/source-selection' }
+        ]
+      },
+      {
+        text: '历史记录',
+        collapsed: true,
+        items: [
+          { text: '历史记录概览', link: '/docs/media/history' },
+          { text: '播放统计', link: '/docs/media/history/playback-statistics' }
         ]
       }
     ]
