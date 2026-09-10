@@ -16,6 +16,10 @@ hero:
       link: /docs/
 ---
 
+<script setup>
+import historyScreenshot from './assets/screenshots/history.webp'
+</script>
+
 <div class="zplayer-home-landing">
   <section class="zplayer-home-showcase">
     <div class="zplayer-home-showcase-copy">
@@ -145,6 +149,9 @@ hero:
       </ul>
       <a class="zplayer-home-inline-link" href="./docs/media/history">查看历史记录使用文档 <span>→</span></a>
     </div>
+    <a class="zplayer-home-history-image" v-bind="{ href: historyScreenshot }" target="_blank" rel="noopener" aria-label="查看历史记录界面大图">
+      <img src="./assets/screenshots/history.webp" width="1391" height="1127" loading="lazy" decoding="async" alt="zPlayer 历史记录页面，按日期展示作品缩略图、剧集范围、播放次数和观看进度" />
+    </a>
     <nav class="zplayer-home-history-guide" aria-label="观看记录功能文档">
       <a class="zplayer-home-history-guide-link" href="./docs/media/history/work-details">
         <span class="zplayer-home-history-guide-number" aria-hidden="true">01</span>

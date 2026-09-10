@@ -1,6 +1,15 @@
+<script setup>
+import workScreenshot from '../../../assets/screenshots/history-work-details.webp'
+</script>
+
 # 作品观看详情：查看一部作品的完整历程
 
 作品观看详情是一个独立页面，把同一部作品的多次播放、不同季度和已确认的不同来源放在一起。这里既能查看累计数据，也能展开到某一天、某一集、某一次播放。
+
+<a v-bind="{ href: workScreenshot }" target="_blank" rel="noopener" aria-label="查看作品观看详情界面大图">
+  <img class="zplayer-screenshot" src="../../../assets/screenshots/history-work-details.webp" width="1391" height="1127" loading="lazy" decoding="async" alt="zPlayer 作品观看详情页面，展示邻家的天使同学的全剧进度、累计观看数据、观看趋势与分季进度" />
+</a>
+<p class="zplayer-screenshot-caption">图：围绕一部作品查看累计观看数据、观看趋势与分季进度。点击截图可查看大图。</p>
 
 ## 从哪里进入
 

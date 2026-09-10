@@ -1,6 +1,15 @@
+<script setup>
+import recapScreenshot from '../../../assets/screenshots/history-viewing-recap.webp'
+</script>
+
 # 观看回顾：翻看一个月或一年的片单
 
 观看回顾按月份或年份整理观看经历：这一期间从哪部作品开始、最近停在哪一集、重看了什么、看完了哪一季，或者隔了一段时间又接着看了哪部剧。
+
+<a v-bind="{ href: recapScreenshot }" target="_blank" rel="noopener" aria-label="查看观看回顾界面大图">
+  <img class="zplayer-screenshot" src="../../../assets/screenshots/history-viewing-recap.webp" width="1446" height="1222" loading="lazy" decoding="async" alt="zPlayer 2026 年 7 月观看回顾，展示本月第一次与最后一次观看的作品、剧集、时间和简介，以及本月片单" />
+</a>
+<p class="zplayer-screenshot-caption">图：按月翻看第一次与最后一次观看，再从本月片单找回看过的作品。点击截图可查看大图。</p>
 
 ## 进入与选择时间
 

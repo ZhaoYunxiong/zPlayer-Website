@@ -1,8 +1,17 @@
+<script setup>
+import statisticsScreenshot from '../../../assets/screenshots/history-playback-statistics.webp'
+</script>
+
 # 播放统计：看懂自己的观看习惯
 
 播放统计把本地观看历史整理成累计时长、播放次数、活跃天数、观看日历、来源与类型分布，以及作品排行。页面上的指标和图表可以继续打开对应记录，方便核对数字来自哪些播放。
 
 本页介绍的是“历史记录”上方的播放统计。播放器菜单“属性 → 播放统计”展示当前播放过程中的实时技术信息，入口和用途不同。
+
+<a v-bind="{ href: statisticsScreenshot }" target="_blank" rel="noopener" aria-label="查看播放统计界面大图">
+  <img class="zplayer-screenshot" src="../../../assets/screenshots/history-playback-statistics.webp" width="1701" height="1222" loading="lazy" decoding="async" alt="zPlayer 播放统计页面，展示观看时长、播放次数、活跃天数、观看日历、媒体数量、观看状态、数据源和类型偏好" />
+</a>
+<p class="zplayer-screenshot-caption">图：从观看总览、日历和来源分布了解观看习惯，并继续查看对应记录。点击截图可查看大图。</p>
 
 ## 进入与筛选
 

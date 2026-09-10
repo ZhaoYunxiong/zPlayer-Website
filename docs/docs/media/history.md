@@ -1,6 +1,15 @@
+<script setup>
+import historyScreenshot from '../../assets/screenshots/history.webp'
+</script>
+
 # 历史记录：按日期找回每次观看
 
 历史记录按“日期 → 作品或文件 → 当天的播放明细”整理观看足迹。你可以展开剧集、找回一次播放、删除某次记录，也可以进入一部作品的完整观看历程。
+
+<a v-bind="{ href: historyScreenshot }" target="_blank" rel="noopener" aria-label="查看历史记录界面大图">
+  <img class="zplayer-screenshot" src="../../assets/screenshots/history.webp" width="1391" height="1127" loading="lazy" decoding="async" alt="zPlayer 历史记录页面，按日期显示作品、来源、剧集范围、播放次数与观看进度" />
+</a>
+<p class="zplayer-screenshot-caption">图：按日期找回看过的作品，查看来源、播放次数和当时的观看进度。点击截图可查看大图。</p>
 
 ## 从哪里进入
 
