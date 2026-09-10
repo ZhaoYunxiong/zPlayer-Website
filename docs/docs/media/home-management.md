@@ -81,6 +81,6 @@
 | 修正 TMDB 匹配或手动编辑资料 | [TMDB 与元数据](/docs/media/home/metadata) |
 | 搜索、筛选和查看联网推荐 | [搜索、分类与推荐](/docs/media/home/search-and-recommendation) |
 | 查看一部电影或电视剧的完整信息 | [媒体详情](/docs/media/home/media-detail) |
-| 按日期查看播放记录、分组、排序和统计 | [历史记录](/docs/media/history) |
+| 按日期查看播放明细，查看作品历程、统计和月度／年度回顾 | [历史记录](/docs/media/history) |
 | 管理收藏、观看状态和继续观看 | [收藏、观看状态与继续观看](/docs/media/home/favorites-and-history) |
 | 按主题整理一组固定内容 | [片单](/docs/media/home/playlists) |

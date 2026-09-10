@@ -134,20 +134,31 @@ hero:
 
   <section class="zplayer-home-section zplayer-home-history-stage">
     <div class="zplayer-home-history-copy">
-      <p class="zplayer-home-eyebrow">记得你看到哪里</p>
-      <h2>历史记录，帮你接着看。</h2>
-      <p>zPlayer 会记住你看过什么、停在什么位置，以及哪些内容还没看完。需要跨服务使用时，还可以把观看状态同步到媒体服务器、Bangumi 或 Trakt。</p>
+      <p class="zplayer-home-eyebrow">每次观看，都有迹可循</p>
+      <h2>看过的作品，串成自己的时间线。</h2>
+      <p>按日期找回每次播放，展开一部作品的完整历程，再翻看一个月或一年的片单。想继续观看时，也能回到当时的文件和进度。</p>
       <ul class="zplayer-home-check-list">
-        <li>继续观看帮你快速回到电影、剧集或具体单集的上次进度</li>
-        <li>历史记录、已观看状态和收藏彼此独立，首页栏目可以分别筛选</li>
-        <li>播放统计汇总观看时长、活动分布、进度状态和常用数据源</li>
-        <li>播放进度可按需同步到媒体服务器，外部账户同步观看记录</li>
+        <li>按作品与季度展开历史，查看和删除某一次播放</li>
+        <li>点击统计数字、日期或来源，直接核对对应记录</li>
+        <li>本地文件明确匹配媒体库后，沿用对应作品和来源</li>
+        <li>观看状态可按需同步到媒体服务器、Bangumi 或 Trakt</li>
       </ul>
-      <a class="zplayer-home-inline-link" href="./docs/media/history">查看历史记录与播放统计 <span>→</span></a>
+      <a class="zplayer-home-inline-link" href="./docs/media/history">查看历史记录使用文档 <span>→</span></a>
     </div>
-    <div class="zplayer-home-history-image">
-      <img src="./assets/screenshots/history.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 侧边栏中的历史记录页面" />
-    </div>
+    <nav class="zplayer-home-history-guide" aria-label="观看记录功能文档">
+      <a class="zplayer-home-history-guide-link" href="./docs/media/history/work-details">
+        <span class="zplayer-home-history-guide-number" aria-hidden="true">01</span>
+        <div><h3>完整的作品观看历程</h3><p>累计观看、分季进度和每次播放，放在同一部作品的完整历程里。</p><span class="zplayer-home-history-guide-label">作品观看详情 <span aria-hidden="true">→</span></span></div>
+      </a>
+      <a class="zplayer-home-history-guide-link" href="./docs/media/history/playback-statistics">
+        <span class="zplayer-home-history-guide-number" aria-hidden="true">02</span>
+        <div><h3>可追溯的观看统计</h3><p>从观看日历、来源和作品排行中了解习惯，点击图表找回具体记录。</p><span class="zplayer-home-history-guide-label">播放统计与作品排行 <span aria-hidden="true">→</span></span></div>
+      </a>
+      <a class="zplayer-home-history-guide-link" href="./docs/media/history/viewing-recap">
+        <span class="zplayer-home-history-guide-number" aria-hidden="true">03</span>
+        <div><h3>月度与年度观看回顾</h3><p>按月或按年翻看片单，找回第一次观看、重看、完季与久别续看的节点。</p><span class="zplayer-home-history-guide-label">月度与年度回顾 <span aria-hidden="true">→</span></span></div>
+      </a>
+    </nav>
   </section>
 
   <section class="zplayer-home-section zplayer-home-advantages">
@@ -190,7 +201,7 @@ hero:
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🧾</span>
         <h3><a class="zplayer-home-advantage-title" href="./docs/media/history">播放历史</a></h3>
-        <p>按日期找回观看足迹，并统计观看时长、活动分布和常用数据源。</p>
+        <p>按日期查看每次播放，汇总作品的观看历程，并翻看月度与年度回顾。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">🔄</span>

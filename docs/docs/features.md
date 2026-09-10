@@ -10,8 +10,8 @@
 | 同步媒体服务器 | 接入 Emby、Jellyfin、Plex、飞牛影视、极影视等来源 | [媒体服务器连接](/docs/media/connections/media-servers) |
 | 在线媒体 | 配置站点，浏览、搜索并按线路播放 | [在线媒体](/docs/media/online-media) |
 | 首页管理 | 扫描、刮削并建立海报墙和动态栏目 | [首页管理](/docs/media/home-management) |
-| 媒体详情 | 管理 TMDB 匹配、季集、片源、收藏和内容结构 | [媒体详情](/docs/media/home/media-detail) |
-| 播放历史与统计 | 按时间找回观看记录，分析观看时长、活动分布和常看来源 | [历史记录](/docs/media/history)、[播放统计](/docs/media/history/playback-statistics) |
+| 媒体详情 | 管理 TMDB 匹配、季集、片源、收藏和内容结构，也可进入作品观看历史 | [媒体详情](/docs/media/home/media-detail) |
+| 播放历史与统计 | 查看单次播放、作品历程、统计排行，以及月度和年度片单 | [历史记录](/docs/media/history)、[作品观看详情](/docs/media/history/work-details)、[播放统计](/docs/media/history/playback-statistics)、[观看回顾](/docs/media/history/viewing-recap) |
 | 收藏与继续观看 | 收藏喜欢的内容，并从上次进度继续播放 | [收藏、观看状态与继续观看](/docs/media/home/favorites-and-history) |
 | 观看进度同步 | 同步媒体服务器、Bangumi 与 Trakt 的观看状态 | [同步功能](/docs/sync/) |
 

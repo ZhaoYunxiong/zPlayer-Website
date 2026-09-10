@@ -65,7 +65,9 @@ const sidebar = [
         collapsed: true,
         items: [
           { text: '历史记录概览', link: '/docs/media/history' },
-          { text: '播放统计', link: '/docs/media/history/playback-statistics' }
+          { text: '作品观看详情', link: '/docs/media/history/work-details' },
+          { text: '播放统计', link: '/docs/media/history/playback-statistics' },
+          { text: '观看回顾', link: '/docs/media/history/viewing-recap' }
         ]
       }
     ]
