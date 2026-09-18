@@ -1,5 +1,7 @@
 ---
 layout: home
+titleTemplate: false
+description: zPlayer 是面向 Windows 的媒体库与播放器，支持本地文件、NAS、媒体服务器和在线媒体。
 hero:
   name: zPlayer
   text: 让播放更智能更优雅

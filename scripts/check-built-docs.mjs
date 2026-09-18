@@ -84,6 +84,35 @@ const markdownFiles = await collectMarkdownFiles(docsRoot)
 const failures = []
 let checkedAnchors = 0
 
+const sitemapFile = path.join(outputRoot, 'sitemap.xml')
+if (!await exists(sitemapFile)) {
+  failures.push('构建产物缺少 sitemap.xml')
+} else {
+  const sitemap = await readFile(sitemapFile, 'utf8')
+  if (!sitemap.includes('https://zhaoyunxiong.github.io/zPlayer-Website/')) {
+    failures.push('sitemap.xml 未包含官网首页 URL')
+  }
+  if (!sitemap.includes('https://zhaoyunxiong.github.io/zPlayer-Website/docs/')) {
+    failures.push('sitemap.xml 未包含使用文档首页 URL')
+  }
+}
+
+for (const seoPage of ['index.html', path.join('docs', 'index.html')]) {
+  const seoFile = path.join(outputRoot, seoPage)
+  if (!await exists(seoFile)) {
+    failures.push(`构建产物缺少 SEO 页面 ${seoPage}`)
+    continue
+  }
+
+  const html = await readFile(seoFile, 'utf8')
+  if (!html.includes('rel="canonical"')) {
+    failures.push(`${seoPage}: 缺少 canonical URL`)
+  }
+  if (!html.includes('<meta name="description" content="')) {
+    failures.push(`${seoPage}: 缺少页面描述`)
+  }
+}
+
 for (const file of markdownFiles) {
   const content = await readFile(file, 'utf8')
   const relativeFile = path.relative(workspaceRoot, file)
@@ -132,5 +161,5 @@ if (failures.length > 0) {
   console.error(failures.join('\n'))
   process.exitCode = 1
 } else {
-  console.log(`构建产物锚点检查通过：${checkedAnchors} 个章节链接均可直达。`)
+  console.log(`构建产物检查通过：${checkedAnchors} 个章节链接、sitemap 和 SEO 元信息均有效。`)
 }

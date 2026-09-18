@@ -1,6 +1,69 @@
+import fs from 'node:fs'
+import path from 'node:path'
 import { defineConfig } from 'vitepress'
 
 const base = process.env.VITEPRESS_BASE || '/'
+const siteUrl = `${(process.env.VITEPRESS_SITE_URL || 'https://zhaoyunxiong.github.io/zPlayer-Website/').replace(/\/+$/, '')}/`
+const docsRoot = path.resolve(process.cwd(), 'docs')
+const siteTitle = 'zPlayer · 现代媒体库与播放器'
+const defaultDescription = '面向 Windows 的媒体库与播放器，支持本地文件、NAS、媒体服务器和在线媒体。'
+
+function truncateDescription(value: string) {
+  const text = value.replace(/\s+/g, ' ').trim()
+  if (text.length <= 155) {
+    return text
+  }
+
+  return `${text.slice(0, 152).replace(/\s+\S*$/, '')}...`
+}
+
+function extractDescription(relativePath: string, frontmatter: Record<string, unknown>) {
+  if (typeof frontmatter.description === 'string' && frontmatter.description.trim()) {
+    return truncateDescription(frontmatter.description)
+  }
+
+  const sourceFile = path.join(docsRoot, relativePath)
+  if (!fs.existsSync(sourceFile)) {
+    return defaultDescription
+  }
+
+  const source = fs.readFileSync(sourceFile, 'utf8')
+    .replace(/^---[\s\S]*?\n---\s*/m, '')
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+
+  const candidate = source
+    .split(/\n\s*\n/)
+    .map(block => block.trim())
+    .filter(block => block && !block.startsWith('#') && !block.startsWith('|') && !block.startsWith(':::') && !block.startsWith('- ') && !block.startsWith('* ') && !/^\d+\.\s/.test(block) && !block.startsWith('<'))
+    .map(block => block
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/[`*_>#]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim())
+    .find(block => block.length >= 24)
+
+  return truncateDescription(candidate || defaultDescription)
+}
+
+function routeFromRelativePath(relativePath: string) {
+  const withoutExtension = relativePath.replaceAll('\\', '/').replace(/\.md$/i, '')
+  const isIndex = withoutExtension === 'index' || /\/index$/i.test(withoutExtension)
+  const route = isIndex ? withoutExtension.replace(/(^|\/)index$/i, '') : withoutExtension
+
+  return route ? `${route}${isIndex ? '/' : ''}` : ''
+}
+
+function canonicalUrl(relativePath: string) {
+  return new URL(routeFromRelativePath(relativePath), siteUrl).toString()
+}
+
+function socialTitle(title: string) {
+  const pageTitle = title || siteTitle
+  return pageTitle === siteTitle || pageTitle === 'zPlayer' ? siteTitle : `${pageTitle} | zPlayer`
+}
 
 const nav = [
   { text: '首页', link: '/' },
@@ -151,16 +214,48 @@ const sidebar = [
 export default defineConfig({
   base,
   lang: 'zh-CN',
-  title: 'zPlayer',
-  description: '面向 Windows 的媒体库与播放器',
+  title: siteTitle,
+  titleTemplate: 'zPlayer',
+  description: defaultDescription,
   cleanUrls: true,
+  sitemap: {
+    hostname: siteUrl
+  },
+  transformPageData(pageData) {
+    if (!pageData.relativePath || pageData.isNotFound) {
+      return
+    }
+
+    return {
+      description: extractDescription(pageData.relativePath, pageData.frontmatter)
+    }
+  },
+  transformHead({ pageData }) {
+    if (!pageData.relativePath || pageData.isNotFound) {
+      return
+    }
+
+    const canonical = canonicalUrl(pageData.relativePath)
+    const description = extractDescription(pageData.relativePath, pageData.frontmatter)
+    const title = socialTitle(pageData.title)
+    const image = new URL('assets/logo.png', siteUrl).toString()
+
+    return [
+      ['link', { rel: 'canonical', href: canonical }],
+      ['meta', { property: 'og:url', content: canonical }],
+      ['meta', { property: 'og:title', content: title }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { property: 'og:image', content: image }],
+      ['meta', { name: 'twitter:title', content: title }],
+      ['meta', { name: 'twitter:description', content: description }],
+      ['meta', { name: 'twitter:image', content: image }]
+    ]
+  },
   head: [
     ['link', { rel: 'icon', href: base + 'assets/logo.png' }],
     ['meta', { name: 'theme-color', content: '#5b5bd6' }],
     ['meta', { name: 'keywords', content: 'zPlayer,Windows 播放器,媒体库,NAS,Emby,Jellyfin,Plex' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'zPlayer · 让播放更智能更优雅' }],
-    ['meta', { property: 'og:description', content: '面向 Windows 的媒体库与播放器' }],
     ['meta', { name: 'twitter:card', content: 'summary' }]
   ],
   themeConfig: {

@@ -2,6 +2,8 @@
 
 这是 zPlayer 官网和中文使用文档的 VitePress 工程，面向 Windows 用户。
 
+[访问 zPlayer 官网](https://zhaoyunxiong.github.io/zPlayer-Website/) · [从 Microsoft Store 下载](https://apps.microsoft.com/detail/9n2p3rq5vxxj?hl=zh-CN&gl=CN)
+
 ## 本地预览
 
 最简单的方式是双击 start-website.cmd。脚本会自动安装依赖、启动开发服务器并打开浏览器。
