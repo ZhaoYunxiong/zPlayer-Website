@@ -35,9 +35,9 @@
 
 ## Microsoft Store 购买失败
 
-如果购买失败、兑换后没有解锁，或需要使用 Microsoft Store 兑换码，请通过上面的开发者邮箱，或通过 zPlayer“关于”页面的动态二维码联系开发者，并说明商店提示和当前 Microsoft 账户状态。
+如果 Microsoft Store 内购无法完成（例如网络错误、商店服务异常，或软件以管理员权限运行），不需要联系开发者：可以在官方网店大熊小铺自助购买 Microsoft Store 激活码，自动发货、价格与内购一致，在 Microsoft Store 兑换后即可解锁。完整步骤见[购买失败怎么办](/docs/getting-started/unlock#购买失败怎么办)。
 
-红包兑换方案需要先确认官方联系方式，避免误发给未经确认的账号。购买前也可以先看[内购解锁](/docs/getting-started/unlock)。
+如果订单已显示支付成功、或已经兑换了激活码，但软件长时间显示未解锁，请先按[内购解锁](/docs/getting-started/unlock)里的检查顺序处理；确认检查都正常后，再通过上面的邮箱或 zPlayer“关于”页面的动态二维码联系开发者，并附上脱敏后的订单成功记录。
 
 <a class="VPButton brand" href="mailto:panda8833657@live.com">发送邮件</a>
 
