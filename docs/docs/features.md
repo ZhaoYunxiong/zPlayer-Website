@@ -10,6 +10,7 @@
 | 批量重命名 | 按前缀、后缀、替换和编号规则批量改名 | [文件服务与连接](/docs/media/file-services#批量重命名) |
 | 同步媒体服务器 | 接入 Emby、Jellyfin、Plex、飞牛影视、极影视等来源 | [媒体服务器连接](/docs/media/connections/media-servers) |
 | 在线媒体 | 配置站点，浏览、搜索并按线路播放 | [在线媒体](/docs/media/online-media) |
+| JS 脚本源 | 按源安装站点脚本，用 GitHub Pages 制作和分享个人源 | [JS 脚本源：安装、制作与分享](/docs/media/online/js-script-sources) |
 | 红果短剧 | 使用内置短剧站点浏览、分集播放和加载官方弹幕 | [在线媒体](/docs/media/online-media#内置红果短剧) |
 | 在线栏目 | 把在线库的站点分类固定到首页，实时浏览 | [首页栏目与布局](/docs/media/home/layout#在线栏目) |
 | 首页管理 | 扫描、刮削并建立海报墙和动态栏目 | [首页管理](/docs/media/home-management) |

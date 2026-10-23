@@ -110,6 +110,7 @@ zPlayer 只负责读取你配置的站点信息、展示搜索结果和调用返
 | 你想做什么 | 对应页面 |
 | --- | --- |
 | 了解 6 种站点类型的区别 | [站点类型](/docs/media/online/site-types) |
+| 安装站点脚本，制作和分享个人脚本源 | [JS 脚本源：安装、制作与分享](/docs/media/online/js-script-sources) |
 | 用 AI 生成或修复 JS 站点 | [AI 生成与修复 JS 站点](/docs/media/online/js-site-generation) |
 | 添加站点后开始浏览 | [搜索、线路与播放](/docs/media/online/source-selection) |
 | 处理无结果、线路失效或播放失败 | [搜索、线路与播放](/docs/media/online/source-selection#遇到问题先判断是哪一层) |

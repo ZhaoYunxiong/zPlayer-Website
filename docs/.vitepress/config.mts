@@ -123,6 +123,7 @@ const sidebar = [
         items: [
           { text: '在线媒体概览', link: '/docs/media/online-media' },
           { text: '站点类型', link: '/docs/media/online/site-types' },
+          { text: 'JS 脚本源：安装、制作与分享', link: '/docs/media/online/js-script-sources' },
           { text: 'AI 生成与修复 JS 站点', link: '/docs/media/online/js-site-generation' },
           { text: '搜索、线路与播放', link: '/docs/media/online/source-selection' }
         ]
