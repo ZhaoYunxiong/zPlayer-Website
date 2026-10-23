@@ -18,9 +18,15 @@
 4. 进入页面后，下方就是聊天窗口。之前生成过的对话可以在这里查看和切换，不需要重新开一个。
 5. 点“开始生成”，AI 会抓取站点页面、阅读结构、写 JS 草稿，然后调用验证器检查。
 
+<img class="zplayer-screenshot" src="../../../assets/screenshots/js-site-generate-start.webp" width="1623" height="470" loading="lazy" decoding="async" alt="zPlayer AI 生成站点页面，填写站点地址和名称后开始生成" />
+<p class="zplayer-screenshot-caption">图：填写站点地址和名称后，AI 会在下方对话里开始分析页面并生成草稿。</p>
+
 生成过程中会显示抓取了哪些页面、写了哪些草稿、验证到了哪一步。你可以继续在输入框里补充信息，比如“分类页在 /list/2.html”“播放地址要从 m3u8 里取”。模型不理解的细节，直接说页面路径或你看到的现象，比反复让它猜更快。
 
-验证通过后，草稿会自动安装到 JS 站点目录，页面会给出站点版本和文件位置。回到站点列表，勾选启用，再到在线库实际浏览、搜索和播放一次。
+验证通过后，草稿会自动安装到 JS 站点目录，页面会给出站点版本和安装结果。回到站点列表，勾选启用，再到在线库实际浏览、搜索和播放一次。
+
+<img class="zplayer-screenshot" src="../../../assets/screenshots/js-site-generate-complete.webp" width="1623" height="480" loading="lazy" decoding="async" alt="zPlayer AI 生成站点完成，显示站点已生成并安装" />
+<p class="zplayer-screenshot-caption">图：生成完成后会显示站点版本和安装结果，仍然要到在线库实际播放验收。</p>
 
 ## 验证检查了什么
 

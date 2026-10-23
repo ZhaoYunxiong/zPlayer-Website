@@ -31,7 +31,7 @@
 | 书签与笔记系统 | 记录章节时间点，并通过内容结构找回片段 | [播放列表与内容模块](/docs/player/content-modules) |
 | 音乐 MV | 在动画 MV 和字幕 MV 两种播放界面之间切换 | [音乐播放器](/docs/player/music) |
 | 媒体徽章 | 按分辨率、HDR 和音频信息展示技术规格 | [媒体徽章](/docs/player/media-badges) |
-| 精彩片段 | 把当前集弹幕的高能片段剪成 GIF，点击直接起播 | [精彩片段](/docs/media/home/highlights) |
+| 精彩片段 | 把当前集值得回看的片段剪成 GIF，点击直接起播 | [精彩片段](/docs/media/home/highlights) |
 | 播放失败重试 | 网络中断自动重试，失败后可以手动重播 | [播放失败排查](/docs/troubleshooting/playback#播放中断后的自动重试) |
 
 ## AI、自动化与工具

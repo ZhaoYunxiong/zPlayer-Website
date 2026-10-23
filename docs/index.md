@@ -300,7 +300,7 @@ import historyScreenshot from './assets/screenshots/history.webp'
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">✨</span>
         <h3><a class="zplayer-home-advantage-title" href="./docs/media/home/highlights">精彩片段</a></h3>
-        <p>从当前集弹幕里挑出高能片段，剪成 GIF。点一下就从那里开始播，找名场面不用拖进度条。</p>
+        <p>把当前集里值得回看的片段剪成 GIF。点一下就从那里开始播，找名场面不用拖进度条。</p>
       </article>
     </div>
   </section>
