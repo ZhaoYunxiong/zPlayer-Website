@@ -26,12 +26,13 @@
 | 2 | [播放控制与快捷操作](/docs/player/controls) | 手势、快进、切集、倍速、片头片尾、快捷键或 A-B 循环 |
 | 3 | [播放内核、解码与硬件加速](/docs/player/engine-and-decoder) | 黑屏、卡顿、花屏、CPU/GPU 占用异常 |
 | 4 | [画质与滤镜](/docs/player/video-quality) | 画面比例、旋转、翻转，以及动漫着色器和滤镜推荐 |
-| 5 | [音乐播放器](/docs/player/music) | 在线音乐、歌单、动态歌词和 PV 歌词动画 |
-| 6 | [音频与均衡器](/docs/player/audio) | 无声、音轨不对、音量或均衡器调整 |
-| 7 | [字幕](/docs/player/subtitles) | 内封字幕、外挂字幕、翻译、动画、多字幕和字幕样式 |
-| 8 | [弹幕](/docs/player/danmaku) | 加载、显示或调整弹幕 |
-| 9 | [Whisper AI 字幕](/docs/player/whisper) | 没有字幕，或需要实时识别、翻译语音 |
-| 10 | [播放列表与内容模块](/docs/player/content-modules) | 管理待播内容、章节书签、故事剧情和内容搜索 |
+| 5 | [音乐播放器](/docs/player/music) | 在线音乐、歌单、动画 MV、字幕 MV 和动态歌词 |
+| 6 | [媒体徽章](/docs/player/media-badges) | 想看当前集的分辨率、HDR 和音频规格，或导入徽章库 |
+| 7 | [音频与均衡器](/docs/player/audio) | 无声、音轨不对、音量或均衡器调整 |
+| 8 | [字幕](/docs/player/subtitles) | 内封字幕、外挂字幕、翻译、动画、多字幕和字幕样式 |
+| 9 | [弹幕](/docs/player/danmaku) | 加载、显示或调整弹幕 |
+| 10 | [Whisper AI 字幕](/docs/player/whisper) | 没有字幕，或需要实时识别、翻译语音 |
+| 11 | [播放列表与内容模块](/docs/player/content-modules) | 管理待播内容、章节书签、故事剧情和内容搜索 |
 
 ## 推荐的排查顺序
 

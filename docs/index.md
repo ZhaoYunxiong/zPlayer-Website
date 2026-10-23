@@ -282,6 +282,26 @@ import historyScreenshot from './assets/screenshots/history.webp'
         <h3><a class="zplayer-home-advantage-title" href="./docs/tools/storage-box">隐私与加密播放</a></h3>
         <p>支持登录 PIN，提供加密文件支持与私密空间保护，守护个人媒体安全。</p>
       </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🪄</span>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/online/js-site-generation">AI 生成站点</a></h3>
+        <p>给一个站点地址，AI 会抓页面、写 JS 草稿并验证，通过后装进在线库；旧站点失效时也能让它先查再修。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">📌</span>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/home/layout#在线栏目">在线栏目</a></h3>
+        <p>把在线库的某个分类固定到首页，打开软件就能接着翻，不用每次重新进站点找。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">🎤</span>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/player/music">动画 MV</a></h3>
+        <p>音乐播放器分成动画 MV 和字幕 MV 两种界面。动画 MV 会把歌词、场景和节奏放在一起，听歌更有画面感。</p>
+      </article>
+      <article class="zplayer-home-advantage">
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">✨</span>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/home/highlights">精彩片段</a></h3>
+        <p>从当前集弹幕里挑出高能片段，剪成 GIF。点一下就从那里开始播，找名场面不用拖进度条。</p>
+      </article>
     </div>
   </section>
 

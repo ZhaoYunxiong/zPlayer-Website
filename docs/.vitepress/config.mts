@@ -81,7 +81,8 @@ const sidebar = [
       { text: '首次启动', link: '/docs/getting-started/first-launch' },
       { text: '打开文件、链接与种子', link: '/docs/getting-started/open-media' },
       { text: '内购解锁', link: '/docs/getting-started/unlock' },
-      { text: '主界面与基本概念', link: '/docs/getting-started/interface' }
+      { text: '主界面与基本概念', link: '/docs/getting-started/interface' },
+      { text: '命令面板', link: '/docs/tools/command-palette' }
     ]
   },
   {
@@ -110,8 +111,10 @@ const sidebar = [
           { text: 'TMDB 与元数据', link: '/docs/media/home/metadata' },
           { text: '搜索、分类与推荐', link: '/docs/media/home/search-and-recommendation' },
           { text: '媒体详情', link: '/docs/media/home/media-detail' },
+          { text: '精彩片段', link: '/docs/media/home/highlights' },
           { text: '收藏、观看状态与继续观看', link: '/docs/media/home/favorites-and-history' },
-          { text: '播放列表', link: '/docs/media/home/playlists' }
+          { text: '播放列表', link: '/docs/media/home/playlists' },
+          { text: '媒体目录同步', link: '/docs/media/home/directory-sync' }
         ]
       },
       {
@@ -120,6 +123,7 @@ const sidebar = [
         items: [
           { text: '在线媒体概览', link: '/docs/media/online-media' },
           { text: '站点类型', link: '/docs/media/online/site-types' },
+          { text: 'AI 生成与修复 JS 站点', link: '/docs/media/online/js-site-generation' },
           { text: '搜索、线路与播放', link: '/docs/media/online/source-selection' }
         ]
       },
@@ -157,6 +161,7 @@ const sidebar = [
       { text: '播放内核、解码与硬件加速', link: '/docs/player/engine-and-decoder' },
       { text: '画质与滤镜', link: '/docs/player/video-quality' },
       { text: '音乐播放器', link: '/docs/player/music' },
+      { text: '媒体徽章', link: '/docs/player/media-badges' },
       { text: '音频与均衡器', link: '/docs/player/audio' },
       { text: '字幕', link: '/docs/player/subtitles' },
       { text: '弹幕', link: '/docs/player/danmaku' },
@@ -186,6 +191,7 @@ const sidebar = [
       { text: '在线服务', link: '/docs/settings/online-services' },
       { text: 'AI、Whisper、RSS 与模块', link: '/docs/settings/ai-and-modules' },
       { text: 'AI 模型与内容理解', link: '/docs/settings/ai' },
+      { text: 'AI 对话与 Agent', link: '/docs/settings/ai-chat' },
       { text: 'RSS 订阅与自动下载', link: '/docs/settings/rss' },
       { text: '模块与启动页', link: '/docs/settings/modules' },
       { text: '字幕设置', link: '/docs/settings/subtitles' },

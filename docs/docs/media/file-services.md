@@ -15,6 +15,8 @@
 <img class="zplayer-screenshot" src="../../assets/screenshots/connection-management.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="zPlayer 连接管理页面，展示已添加的媒体来源" />
 <p class="zplayer-screenshot-caption">图：连接管理集中显示来源状态，并提供启用、编辑、收藏和删除入口。</p>
 
+连接管理顶部有来源状态入口。全部来源正常时显示成一个更多图标，点开仍能查看每个来源的状态，也可以单独刷新某一个来源。本地磁盘来源还会监测目录变化，新增或删除文件后会自动刷新，不用每次都手动点“检查全部”。
+
 服务需要填写哪些地址、账户、密码、路径或授权信息，由具体服务决定。可以直接按来源阅读：
 
 - [本地与网络文件服务](/docs/media/connections/local-and-network)：本地文件夹、SMB、FTP、SFTP、WebDAV、AList、OpenList；
@@ -66,6 +68,12 @@
 :::
 
 文件服务的另一个好处是保留了原来的目录层级。你可以先进入剧集目录，再进入季目录，最后从具体视频文件播放；这适合只想按文件结构找片的场景。
+
+## 批量重命名
+
+在文件夹浏览页选中多个文件或文件夹，可以打开批量重命名。规则支持加前缀、加后缀、查找替换和编号，执行前会先预览新名称。扩展名会自动保留，名称没变化的条目会跳过。
+
+本地目录、FTP、SFTP、SMB、WebDAV 等来源都能用。执行前会检查非法字符、系统保留名、重复名称和目录冲突；失败时会汇总结果，并尽量恢复原来的名称。重命名会直接改源文件，重要目录先备份或先用少量文件试一遍。
 
 <img class="zplayer-screenshot" src="../../assets/screenshots/file-service-season.webp" width="1727" height="1258" loading="lazy" decoding="async" alt="zPlayer 文件服务中的剧集季目录和视频文件" />
 <p class="zplayer-screenshot-caption">图：进入季目录后，文件服务会把视频文件、分辨率、大小、时长和观看进度放在一起显示。</p>

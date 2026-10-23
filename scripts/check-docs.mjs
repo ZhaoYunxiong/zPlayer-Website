@@ -94,8 +94,8 @@ for (const file of markdownFiles) {
 const homeFile = path.join(docsRoot, 'index.md')
 const homeContent = await readFile(homeFile, 'utf8')
 const featureLinks = [...homeContent.matchAll(/class="zplayer-home-advantage-title"/g)]
-if (featureLinks.length !== 21) {
-  failures.push(`docs/index.md: 首页功能标题应有 21 个文档链接，当前为 ${featureLinks.length} 个`)
+if (featureLinks.length !== 25) {
+  failures.push(`docs/index.md: 首页功能标题应有 25 个文档链接，当前为 ${featureLinks.length} 个`)
 }
 
 for (const removedRoute of ['/download', '/privacy', '/changelog']) {

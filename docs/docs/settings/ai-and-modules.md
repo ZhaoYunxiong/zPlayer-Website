@@ -4,7 +4,7 @@
 
 | 功能 | 用途 | 详细文档 |
 | --- | --- | --- |
-| AI | 对话、视觉理解、媒体摘要和语义搜索 | [AI 模型与内容理解](/docs/settings/ai) |
+| AI | 对话、工具调用、视觉理解、媒体摘要和语义搜索 | [AI 模型与内容理解](/docs/settings/ai)、[AI 对话与 Agent](/docs/settings/ai-chat) |
 | Whisper | 从音频生成或实时显示字幕 | [Whisper AI 字幕](/docs/player/whisper) |
 | RSS | 聚合订阅、搜索资源并按需自动下载 | [RSS 订阅与自动下载](/docs/settings/rss) |
 | 模块 | 决定左侧显示哪些入口，以及启动时进入哪一页 | [模块与启动页](/docs/settings/modules) |

@@ -51,13 +51,15 @@
 
 进入“栏目管理”，可以调整首页现有栏目和来源栏目的显示状态、顺序，还能新建自定义动态栏目。它是首页最值得花时间配置的功能，详见[首页栏目与布局](/docs/media/home/layout)和[动态栏目：按条件生成你的首页](/docs/media/home/layout#dynamic-columns)。
 
+“新增栏目”菜单里还有“从在线库新增”。选一个在线站点和分类，就能把这一类内容做成首页栏目，不用每次都进在线库翻。具体步骤见[首页栏目与布局](/docs/media/home/layout#在线栏目)。
+
 ### 收藏
 
 直接进入收藏内容。想长期保留某部作品时用收藏；想按主题整理一组片子时，使用片单会更合适，区别见[收藏、观看状态与继续观看](/docs/media/home/favorites-and-history)和[片单](/docs/media/home/playlists)。
 
 ### 右上角“更多”
 
-这里有联网推荐、设置为启动页和导出刮削调试信息等入口。遇到刮削错误时，最重要的是“导出刮削调试信息”，具体反馈方式见[日志导出与反馈](/docs/troubleshooting/logs-and-feedback)。
+这里有联网推荐、媒体库统计、设置为启动页和导出刮削调试信息等入口。“媒体库统计”会直接跳到首页的统计栏目；遇到刮削错误时，最重要的是“导出刮削调试信息”，具体反馈方式见[日志导出与反馈](/docs/troubleshooting/logs-and-feedback)。
 
 <img class="zplayer-screenshot" src="../../assets/screenshots/home-more-menu.webp" width="1727" height="1268" loading="lazy" decoding="async" alt="zPlayer 首页右上角的更多菜单" />
 <p class="zplayer-screenshot-caption">图：首页的“更多”菜单集中放置联网推荐、启动页和刮削信息导出等不常用但很重要的入口。</p>

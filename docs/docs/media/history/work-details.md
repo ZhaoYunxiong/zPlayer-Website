@@ -33,6 +33,8 @@ import workScreenshot from '../../../assets/screenshots/history-work-details.web
 
 电视剧按已看集数展示全剧进度。同一集多次播放或跨来源重看不会重复增加已看集数。只有能够确认属于同一作品的记录才会汇总，剧名相同本身不是合并依据。
 
+在线库的剧集也会按同样方式汇总。同一在线站点、同一部剧的各集共用一个作品历程，分季进度和播放记录仍然保留每一集的站点、线路和分集信息。不同站点即使标题一样，也不会自动合并成一部作品。
+
 字段的统计方式与[播放统计口径](/docs/media/history/playback-statistics#counting-rules)一致。
 
 ## 观看趋势、来源和分季进度
