@@ -137,7 +137,8 @@ const sidebar = [
           { text: '播放统计', link: '/docs/media/history/playback-statistics' },
           { text: '观看回顾', link: '/docs/media/history/viewing-recap' }
         ]
-      }
+      },
+      { text: '下载中心', link: '/docs/media/downloads' }
     ]
   },
   {
@@ -149,6 +150,7 @@ const sidebar = [
       { text: '媒体处理工具箱', link: '/docs/tools/media-toolbox' },
       { text: '媒体属性与 Markdown 导出', link: '/docs/tools/media-properties-and-export' },
       { text: '投屏与局域网共享', link: '/docs/tools/casting-and-sharing' },
+      { text: '协议链接与一键添加', link: '/docs/tools/protocol-links' },
       { text: '储物箱与加密播放', link: '/docs/tools/storage-box' }
     ]
   },
@@ -175,6 +177,7 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '同步功能概览', link: '/docs/sync/' },
+      { text: '历史同步', link: '/docs/sync/history-sync' },
       { text: 'Bangumi 与 Trakt', link: '/docs/sync/bangumi-and-trakt' },
       { text: '媒体服务器播放进度同步', link: '/docs/sync/media-server' },
       { text: '同步异常排查', link: '/docs/sync/troubleshooting' }
@@ -188,12 +191,11 @@ const sidebar = [
       { text: '首页设置', link: '/docs/settings/home' },
       { text: '主题与外观', link: '/docs/settings/appearance' },
       { text: '文件夹与列表', link: '/docs/settings/folders-and-lists' },
-      { text: '播放、解码与画质', link: '/docs/settings/playback' },
+      { text: '解码与画质、播放控制', link: '/docs/settings/playback' },
       { text: '在线服务', link: '/docs/settings/online-services' },
-      { text: 'AI、Whisper、RSS 与模块', link: '/docs/settings/ai-and-modules' },
+      { text: 'AI、Whisper 与模块', link: '/docs/settings/ai-and-modules' },
       { text: 'AI 模型与内容理解', link: '/docs/settings/ai' },
       { text: 'AI 对话与 Agent', link: '/docs/settings/ai-chat' },
-      { text: 'RSS 订阅与自动下载', link: '/docs/settings/rss' },
       { text: '模块与启动页', link: '/docs/settings/modules' },
       { text: '字幕设置', link: '/docs/settings/subtitles' },
       { text: '弹幕设置', link: '/docs/settings/danmaku' },

@@ -13,7 +13,7 @@
 | 首页 | [首页设置](/docs/settings/home) | 启动页、首页行为和历史同步入口 |
 | 主题 | [主题与外观](/docs/settings/appearance) | 明暗主题和主题颜色 |
 | 文件夹、列表 | [文件夹与列表](/docs/settings/folders-and-lists) | 浏览路径、列表呈现和文件过滤 |
-| 解码、播放控制 | [播放、解码与画质](/docs/settings/playback) | 播放内核、手势、硬件解码、滤镜和快捷键 |
+| 解码与画质、播放控制 | [播放、解码与画质](/docs/settings/playback) | 播放内核、HDR 与音频输出、缓存与网络、画质增强、手势和快捷键 |
 | 音乐、音频 | [音乐播放器](/docs/player/music)、[音频与均衡器](/docs/player/audio) | 动画 MV、字幕 MV、歌单、歌词、音轨和音频输出 |
 | 字幕 | [字幕设置](/docs/settings/subtitles)、[字幕使用指南](/docs/player/subtitles) | 字幕引擎、样式、翻译、动画和轨道 |
 | 弹幕 | [弹幕设置](/docs/settings/danmaku)、[弹幕使用指南](/docs/player/danmaku) | 弹幕加载、显示范围、密度和性能 |
@@ -21,7 +21,6 @@
 | 投屏、共享 | [投屏与局域网共享](/docs/tools/casting-and-sharing) | 投屏方向、共享服务、端口和防火墙 |
 | AI | [AI 模型与内容理解](/docs/settings/ai)、[AI 对话与 Agent](/docs/settings/ai-chat) | 对话、工具调用、思考强度、上下文、视觉、嵌入和语义搜索 |
 | Whisper | [Whisper AI 字幕](/docs/player/whisper) | 本机模型、实时识别和翻译 |
-| RSS | [RSS 订阅与自动下载](/docs/settings/rss) | 订阅、过滤、下载器和路径映射 |
 | 模块 | [模块与启动页](/docs/settings/modules) | 导航入口和启动默认页面 |
 | 账户、其他 | [账户、网络与其他](/docs/settings/account-and-network) | 本机账户、网络、缓存、备份与恢复 |
 | 调试 | [调试与日志](/docs/settings/debug) | 日志级别、日志目录和问题反馈 |

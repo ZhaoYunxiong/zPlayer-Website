@@ -8,9 +8,8 @@ zPlayer 中几组“网络功能”的方向不同：
 | 外部媒体来源 | 媒体库或首页 → 连接管理 | 连接 NAS、网盘和 Emby、Jellyfin、Plex 等 |
 | 局域网共享 | 设置 → 媒体服务器 | 让其他设备访问 zPlayer 能提供的媒体 |
 | 投屏 | 设置 → 投屏 | 接收投屏，或把媒体发送给局域网渲染设备 |
-| RSS | 设置 → RSS 订阅 | 发现资源更新，并可选交给下载器 |
 
-具体使用流程分别见[文件服务](/docs/media/file-services)、[投屏与局域网共享](/docs/tools/casting-and-sharing)和[RSS 订阅与自动下载](/docs/settings/rss)。
+具体使用流程分别见[文件服务](/docs/media/file-services)和[投屏与局域网共享](/docs/tools/casting-and-sharing)。
 
 ## 在线库设置
 
@@ -34,10 +33,6 @@ zPlayer 中几组“网络功能”的方向不同：
 “设置 → 媒体服务器”中的 WebDAV、FTP、DLNA 是 zPlayer 对外提供服务；“设置 → 投屏”则控制设备名称、收到请求是否询问，以及 DLNA 渲染能力。
 
 只在可信局域网中启用共享，WebDAV 和 FTP 应配置用户验证，并按页面入口设置 Windows 防火墙规则。不要把共享端口直接暴露到公网。完整的端口、客户端和排错步骤见[投屏与局域网共享](/docs/tools/casting-and-sharing)。
-
-## RSS
-
-RSS 不是在线点播入口。它负责刷新订阅、搜索资源，并可把符合条件的项目发送给 qBittorrent 或 Aria2。路径映射、过滤和邮件报告见[RSS 订阅与自动下载](/docs/settings/rss)。
 
 ## TMDB 与代理
 

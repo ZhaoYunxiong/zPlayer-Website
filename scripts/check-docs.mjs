@@ -99,7 +99,8 @@ if (featureLinks.length !== 25) {
 }
 
 for (const removedRoute of ['/download', '/privacy', '/changelog']) {
-  if (homeContent.includes(removedRoute)) {
+  // 只匹配独立的路由引用，避免把 /docs/media/downloads 这类合法路径当成已移除页面。
+  if (new RegExp(`["']${removedRoute}(?:["'/])`).test(homeContent)) {
     failures.push(`docs/index.md: 仍引用已移除页面 ${removedRoute}`)
   }
 }

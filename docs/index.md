@@ -268,9 +268,9 @@ import historyScreenshot from './assets/screenshots/history.webp'
         <p>可一键导出视频属性 Markdown，保存影片笔记与解析记录。</p>
       </article>
       <article class="zplayer-home-advantage">
-        <span class="zplayer-home-advantage-icon" aria-hidden="true">📡</span>
-        <h3><a class="zplayer-home-advantage-title" href="./docs/settings/rss">RSS 订阅中心</a></h3>
-        <p>自动更新番剧订阅，支持离线下载与邮件推送统计。</p>
+        <span class="zplayer-home-advantage-icon" aria-hidden="true">📥</span>
+        <h3><a class="zplayer-home-advantage-title" href="./docs/media/downloads">下载中心</a></h3>
+        <p>首页、媒体库和在线库的下载集中到一处，进度、重试和记录一眼看清。</p>
       </article>
       <article class="zplayer-home-advantage">
         <span class="zplayer-home-advantage-icon" aria-hidden="true">✨</span>

@@ -9,6 +9,8 @@
 | 下载、转码、剪辑或处理音轨、字幕 | 左侧“工具箱” | [媒体处理工具箱](/docs/tools/media-toolbox) |
 | 查看完整媒体参数或导出 Markdown | 媒体详情或播放器的媒体操作 | [媒体属性与 Markdown 导出](/docs/tools/media-properties-and-export) |
 | 把媒体投到电视，或让其他设备访问本机文件 | 投屏入口或“设置 → 媒体服务” | [投屏与局域网共享](/docs/tools/casting-and-sharing) |
+| 把媒体保存到本地，并集中管理下载任务 | 主界面顶部的下载入口 | [下载中心](/docs/media/downloads) |
+| 用链接唤起 zPlayer，或一键添加数据源 | 浏览器、聊天工具等任意可打开链接的位置 | [协议链接与一键添加](/docs/tools/protocol-links) |
 | 把私密媒体放进不易被文件名和双击直接识别的空间 | “连接管理 → 添加 → 储物箱” | [储物箱与加密播放](/docs/tools/storage-box) |
 
 ## 先分清几个容易混淆的入口

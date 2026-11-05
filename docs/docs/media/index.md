@@ -8,6 +8,7 @@ zPlayer 的媒体内容管理分为四个相互配合的入口：
 | [首页管理](/docs/media/home-management) | 扫描、刮削、元数据和首页 | 想用海报墙和栏目管理媒体 |
 | [在线媒体](/docs/media/online-media) | 站点、搜索、线路和片源 | 直接从在线服务查找和播放 |
 | [历史记录](/docs/media/history) | 单次播放、[作品观看详情](/docs/media/history/work-details)、[播放统计](/docs/media/history/playback-statistics)与[观看回顾](/docs/media/history/viewing-recap) | 按时间找回播放，查看作品历程或月度、年度片单 |
+| [下载中心](/docs/media/downloads) | 首页、媒体库和在线库发起的下载任务 | 把想留在本地的内容保存下来，并统一查看进度 |
 
 推荐流程是：先添加一个文件服务并验证播放，再决定是否开启首页管理；在线媒体可以独立配置，不必依赖本地媒体库。
 
@@ -22,4 +23,4 @@ zPlayer 的媒体内容管理分为四个相互配合的入口：
 - 电脑硬盘、移动硬盘、FTP、SFTP、SMB、WebDAV、AList 或 OpenList：[本地与网络文件服务](/docs/media/connections/local-and-network)
 - S3、OneDrive、百度网盘、阿里云盘、夸克网盘或 115：[云盘与对象存储](/docs/media/connections/cloud-and-object-storage)
 - Emby、Jellyfin、Plex、飞牛影视、极影视或 DLNA：[媒体服务器](/docs/media/connections/media-servers)
-- Maccms、TVBox、JS、Miru、Kazumi 或 IPTV：[在线站点类型](/docs/media/online/site-types)
+- Maccms、JS 爬虫或 IPTV：[在线站点类型](/docs/media/online/site-types)
