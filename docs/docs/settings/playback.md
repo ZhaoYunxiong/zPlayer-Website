@@ -2,6 +2,9 @@
 
 这一页对应软件设置里的两个入口：`播放控制` 和 `解码与画质`。前者改变播放器怎么操作、怎么显示；后者改变视频由哪个内核、哪种渲染方式和哪种硬件解码路径处理，也集中了 HDR 输出、音频输出、画质增强和缓存与网络相关选项。
 
+<img class="zplayer-screenshot" src="../../assets/screenshots/decode-and-quality.webp" width="1555" height="1172" loading="lazy" decoding="async" alt="zPlayer 解码与画质设置页，包含解码与输出、画质增强、缓存与网络、高级四个分组" />
+<p class="zplayer-screenshot-caption">图：“解码与画质”分成解码与输出、画质增强、缓存与网络和高级四组，点进去才是具体选项。</p>
+
 第一次使用建议保持默认值。播放器能正常播放时，不要为了追求“更高性能”随意切换解码器、GPU 上下文或滤镜；这些选项更适合在遇到明确问题时逐项试验。
 
 具体的观看操作见[播放器](/docs/player/)，黑屏、卡顿等现象见[播放失败、黑屏、卡顿](/docs/troubleshooting/playback)。

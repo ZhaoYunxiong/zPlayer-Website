@@ -2,6 +2,9 @@
 
 “历史同步”是一个独立页面，用来集中处理观看记录在各平台之间的推送和拉取。它和播放时自动上报进度是两件事：自动上报在播放过程中悄悄完成，历史同步则让你能看清每个来源、每一步处理了多少条记录。
 
+<img class="zplayer-screenshot" src="../../assets/screenshots/history-sync.webp" width="1555" height="1172" loading="lazy" decoding="async" alt="zPlayer 历史同步页面，分为局域网同步、观看平台和媒体服务器三个区块" />
+<p class="zplayer-screenshot-caption">图：历史同步页面按局域网同步、观看平台和媒体服务器分区，每个来源都能单独拉取、推送或查看同步记录。</p>
+
 ## 从哪里进入
 
 在左侧打开“历史记录”页面，页面顶部有“同步”入口，点开后就是历史同步页面。需要推送或拉取时不必先播放媒体，页面本身就可以操作。
@@ -32,6 +35,9 @@ Bangumi 和 Trakt 的登录授权在“设置 → 首页 → 历史记录”里�
 | 自动同步 | 打开后，设备会在局域网内自动发现同组设备并同步 |
 | 设备名称 | 在同步记录里区分是哪台设备，默认使用电脑名 |
 | 同步密钥 | 同步组的密码。在一台设备上生成密钥，再把同一密钥粘贴到其他设备 |
+
+<img class="zplayer-screenshot" src="../../assets/screenshots/history-sync-device.webp" width="1555" height="1172" loading="lazy" decoding="async" alt="zPlayer 播放历史同步设置窗口，包含自动同步开关、设备名称、同步密钥和同步详情" />
+<p class="zplayer-screenshot-caption">图：局域网同步的设置窗口，把同一份同步密钥填到各台设备后，就能看到播放记录条数、发送与接收的变更数和设备连接状态。</p>
 
 设置改动会立即保存并生效。想马上同步一次，可以点“立即同步”，不必等自动同步的下一轮。
 

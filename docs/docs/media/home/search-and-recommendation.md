@@ -10,6 +10,9 @@
 
 离开搜索结果页时，还没完成的搜索会被取消，不会留在后台继续占用网络和 CPU。
 
+<img class="zplayer-screenshot" src="../../../assets/screenshots/search-results.webp" width="1555" height="1207" loading="lazy" decoding="async" alt="zPlayer 搜索结果页，动漫和极速资源等来源分成不同栏目依次显示结果卡片" />
+<p class="zplayer-screenshot-caption">图：搜索结果按来源分组，本地和在线库的结果边返回边上屏，先出现的结果已经可以点开。</p>
+
 搜索不到时，按这个顺序排查：
 
 1. 来源是否已经在[连接管理](/docs/media/file-services)中保存成功。
@@ -40,6 +43,9 @@
 | 首页右上角“更多” → “联网推荐”，或“媒体推荐”栏目里的更多按钮 | 从互联网推荐服务获取作品信息 | 发现还没有加入自己媒体库的新电影、新剧和动漫 |
 
 首页的“媒体推荐”不只是随机挑片，每张卡片还会给出推荐原因，例如“常看这位演员的作品”“经常看某类作品”“最近加入媒体库”或“高评分，尚未观看”。推荐理由来自你已有的观看记录、收藏和媒体库内容；这类信息还不足时，会退回到更通用的依据。
+
+<img class="zplayer-screenshot" src="../../../assets/screenshots/home-recommendation.webp" width="777" height="400" loading="lazy" decoding="async" alt="首页媒体推荐卡片，标题下方写着推荐理由“经常看喜剧类作品”" />
+<p class="zplayer-screenshot-caption">图：媒体推荐卡片会在标题下方写清推荐理由，例如“经常看喜剧类作品”。</p>
 
 简单说，首页的“媒体推荐”是在**你的媒体里挑片**；“联网推荐”是在**互联网内容里找片**。联网推荐展示的是作品信息，并不等于 zPlayer 已经拥有这部作品的播放文件。
 

@@ -18,6 +18,9 @@
 
 “解码与画质 → 画质增强”把效果按用途分组，每组都能单独开启并选择档位。不需要的效果保持关闭即可；同时开得越多，GPU 负担越高。
 
+<img class="zplayer-screenshot" src="../../assets/screenshots/quality-enhancement.webp" width="1555" height="1317" loading="lazy" decoding="async" alt="zPlayer 画质增强设置页，按清晰与放大、RTX 视频增强、运动、色彩和人像分组列出各项效果" />
+<p class="zplayer-screenshot-caption">图：画质增强按清晰与放大、RTX 视频增强、运动、色彩和人像分组，每组只开需要的效果，避免负担叠加。</p>
+
 | 分组 | 里面有什么 | 什么时候用 |
 | --- | --- | --- |
 | 清晰与放大 | 视频放大、细节锐化、动画增强 | 低分辨率片源放大、画面偏软，或想加强轮廓 |

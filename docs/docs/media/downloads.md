@@ -2,6 +2,9 @@
 
 从首页、媒体库或在线库发起的下载，都会统一进入下载中心，不再散落在各个页面。主界面顶部的下载入口会显示正在进行的任务数，点开就能看到全部任务、当前进度和失败原因。
 
+<img class="zplayer-screenshot" src="../../assets/screenshots/download-center.webp" width="1555" height="1172" loading="lazy" decoding="async" alt="zPlayer 下载中心页面，按日期分组显示每个下载任务的名称、保存位置、时间和进度" />
+<p class="zplayer-screenshot-caption">图：下载中心按日期分组列出任务，每条都能看到保存位置、状态和已下载大小；右侧可以直接重试或移除。</p>
+
 ## 从哪里发起下载
 
 | 发起位置 | 典型用途 |

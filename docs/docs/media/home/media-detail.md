@@ -78,6 +78,9 @@ Emby、Jellyfin 这类服务器的多版本信息，软件会在你选中某一�
 - **自动**：根据网络和设备情况自动选择；
 - **逐级下调的清晰度**：从原画往下，按当前片源推导出若干档位。
 
+<img class="zplayer-screenshot" src="../../../assets/screenshots/media-detail-quality.webp" width="1555" height="1207" loading="lazy" decoding="async" alt="zPlayer 媒体详情页右上角的清晰度菜单，列出原画、自动和按码率区分的多个档位" />
+<p class="zplayer-screenshot-caption">图：详情页右上角的清晰度入口按当前片源列出原画、自动和逐级下调的档位，切换时不会中断播放。</p>
+
 切换清晰度不会打断播放，播放位置、暂停状态、外挂字幕和音画延迟都会保留。远程访问服务器时，适当下调清晰度通常能明显减少缓冲。
 
 ### 同步这部作品

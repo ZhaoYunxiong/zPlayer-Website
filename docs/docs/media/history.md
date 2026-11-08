@@ -107,6 +107,9 @@ import historyScreenshot from '../../assets/screenshots/history.webp'
 | 从备份恢复 | 使用软件自动生成的备份文件恢复 |
 | 从数据库重建 | 查找本机残留的观看信息重建记录，可能包含媒体服务器同步过来的观看状态 |
 
+<img class="zplayer-screenshot" src="../../assets/screenshots/history-recovery.webp" width="662" height="720" loading="lazy" decoding="async" alt="zPlayer 恢复历史记录对话框，可以从备份恢复或从数据库重建，并在预览中看到新增与重复记录数" />
+<p class="zplayer-screenshot-caption">图：恢复历史记录可以选择从备份恢复或从数据库重建，预览会先显示会补回多少条记录，应用前还会再备份一次。</p>
+
 恢复结果会和当前历史合并，并保留当前的播放进度；应用更改前会自动再备份一次。软件在每天首次保存、清空历史以及恢复前都会自动备份，保留最近 14 份每日备份和 20 份操作备份。
 
 重建出来的记录属于估算历史，无法找回完整的观看明细，日期和播放次数可能不准确。

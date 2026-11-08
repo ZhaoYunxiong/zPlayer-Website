@@ -2,6 +2,9 @@
 
 媒体处理工具不占左侧导航：在媒体卡片或列表项上右键，选择“工具处理”，就能看到任务列表和全部工具；也可以在命令面板里搜“工具箱”直接打开工具箱页面。
 
+<img class="zplayer-screenshot" src="../../assets/screenshots/media-tools-menu.webp" width="1555" height="1207" loading="lazy" decoding="async" alt="在媒体上右键打开的工具处理菜单，子菜单列出网页媒体抓取、视频转码、字幕内嵌等全部工具" />
+<p class="zplayer-screenshot-caption">图：在任意媒体上右键 →“工具处理”，就能打开任务列表并选择具体工具，不用先去左侧找入口。</p>
+
 进入后，常见的媒体处理任务集中在一个页面。选择工具、填写参数后，任务会进入任务列表；你可以在列表中查看进度或取消仍在运行的任务。
 
 ## 工具可以做什么
