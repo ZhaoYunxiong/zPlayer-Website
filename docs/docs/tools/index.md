@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | 不想翻菜单，直接搜索并执行操作 | 按 `Ctrl+P`，或按 `Ctrl+Shift+P` 直接进入命令模式 | [命令面板](/docs/tools/command-palette) |
 | 保存并反复播放网络直播、广播或直链 | 左侧“流媒体” | [流媒体链接](/docs/tools/streaming) |
-| 下载、转码、剪辑或处理音轨、字幕 | 左侧“工具箱” | [媒体处理工具箱](/docs/tools/media-toolbox) |
+| 下载、转码、剪辑或处理音轨、字幕 | 媒体右键菜单 →“工具处理”，或命令面板搜“工具箱” | [媒体处理工具箱](/docs/tools/media-toolbox) |
 | 查看完整媒体参数或导出 Markdown | 媒体详情或播放器的媒体操作 | [媒体属性与 Markdown 导出](/docs/tools/media-properties-and-export) |
 | 把媒体投到电视，或让其他设备访问本机文件 | 投屏入口或“设置 → 媒体服务” | [投屏与局域网共享](/docs/tools/casting-and-sharing) |
 | 把媒体保存到本地，并集中管理下载任务 | 主界面顶部的下载入口 | [下载中心](/docs/media/downloads) |

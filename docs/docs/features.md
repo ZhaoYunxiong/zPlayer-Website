@@ -20,6 +20,7 @@
 | 收藏与继续观看 | 收藏喜欢的内容，并从上次进度继续播放 | [收藏、观看状态与继续观看](/docs/media/home/favorites-and-history) |
 | 观看进度同步 | 同步媒体服务器、Bangumi 与 Trakt 的观看状态 | [同步功能](/docs/sync/) |
 | 历史同步 | 按作品或单集推送、拉取观看记录，也可从备份恢复本地历史 | [历史同步](/docs/sync/history-sync) |
+| 局域网历史同步 | 同一局域网内的多台电脑用同一个密钥合并观看记录 | [历史同步](/docs/sync/history-sync#device-sync) |
 
 ## 播放与观看体验
 
@@ -28,6 +29,7 @@
 | 智能播放引擎 | 选择播放内核、硬件解码并处理兼容问题 | [播放内核、解码与硬件加速](/docs/player/engine-and-decoder) |
 | 快速启动与续播 | 临时打开媒体并从上次进度继续 | [打开媒体](/docs/getting-started/open-media)、[继续观看](/docs/media/home/favorites-and-history#继续观看) |
 | 画面预设与滤镜 | 使用 Anime4K、补帧、内置色彩滤镜和播放美颜 | [画质与滤镜](/docs/player/video-quality) |
+| RTX 视频增强 | 用 NVIDIA 驱动做 RTX 视频超分和 RTX 视频 HDR | [画质与滤镜](/docs/player/video-quality#rtx-video-enhancement) |
 | 音频控制中心 | 切换音轨、调整同步、均衡器与语音增强 | [音频与均衡器](/docs/player/audio) |
 | 多字幕系统 | 加载多字幕、翻译、动画并调整样式 | [字幕](/docs/player/subtitles)、[字幕设置](/docs/settings/subtitles) |
 | 书签与笔记系统 | 记录章节时间点，并通过内容结构找回片段 | [播放列表与内容模块](/docs/player/content-modules) |
